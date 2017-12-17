@@ -609,7 +609,7 @@
     "x" : [ 2, 168, 210, 228, 6, 28, 12, 81, 81, 81, 105, 105, 105, 227, 227, 227  ],
     "y" : [ 2, 1, 1, 1, 13, 22, 36, 23, 31, 39, 23, 31, 39, 23, 31, 39 ],
  	"parameters" : [ "song", "now0", "now1", "now2", "temposource", "tempo", "loop", "step0", "step1", "step2", "sequence0", "sequence1", "sequence2", "reps0", "reps1", "reps2" ],
-   "tfsize" : [ 19, 3, 2, 2, 5, 5, 3, 3, 3, 3, 19, 19, 19, 19, 2, 2, 2  ],
+   "tfsize" : [ 19, 3, 2, 2, 5, 5, 3, 3, 3, 3, 19, 19, 19, 2, 2, 2  ],
 	"fblabels" : [ null, null, null, "CONVRT", "DELETE", "INSERT" ],
 	"fbtypes" : [ null, null, null, 1, 1, 1 ],
 	"lastfocus" : "song"
