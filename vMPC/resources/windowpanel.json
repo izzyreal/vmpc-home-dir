@@ -922,7 +922,7 @@
   	"infowidgets" : [ "current", "message0", "message1" ],
   	"infox" : [ 110, 69, 69 ],
   	"infoy" : [ 16, 30, 39 ],
-  	"infosize" : [ 3, 40, 40 ],
+  	"infosize" : [ 3, 28, 26 ],
   	"parameters" : [ "newbars" ],
   	"fblabels" : [ null, null, "IN/DEL", "CANCEL", "DO IT", null ],
   	"fbtypes" : [ null, null, 0, 0, 1, null ],
