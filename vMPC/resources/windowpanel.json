@@ -1,11 +1,11 @@
 {
 "directtodiskrecorder":
 {
-    "labels" : [ "Record:", "Sq:", "Song:", "Time:", ".", ".", "-", ".", ".", "Output folder:", "Split L/R:", "Offline:" ],
-    "x" : [ 22, 22, 22, 22, 70, 88, 106, 130, 148, 22, 150, 162 ],
-    "y" : [ 12, 22, 22, 32, 32, 32, 32, 32, 32, 42, 12, 22 ],
-    "tfsize" : [ 12, 19, 11, 3, 2, 2, 3, 2, 2, 8, 3, 3 ],
-	"parameters" : [ "record", "sq", "song", "time0", "time1", "time2", "time3", "time4", "time5", "outputfolder", "splitlr", "offline" ],
+    "labels" : [ "Record:", "Sq:", "Song:", "Time:", ".", ".", "-", ".", ".", "Output folder:", "Split L/R:", "Offline:", "Rate:" ],
+    "x" : [ 22, 22, 22, 22, 70, 88, 106, 130, 148, 22, 150, 162, 174 ],
+    "y" : [ 12, 22, 22, 32, 32, 32, 32, 32, 32, 42, 12, 22, 32 ],
+    "tfsize" : [ 12, 19, 11, 3, 2, 2, 3, 2, 2, 8, 3, 3, 4 ],
+	"parameters" : [ "record", "sq", "song", "time0", "time1", "time2", "time3", "time4", "time5", "outputfolder", "splitlr", "offline", "rate" ],
 	"fblabels" : [ null, null, null, "CANCEL", "RECORD", null],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "record"
