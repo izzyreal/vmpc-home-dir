@@ -1,0 +1,36 @@
+SHIFT + PLAY START = Open Direct-To-Disk Recorder (online and offline bounce/export to .WAV)
+
+F1 ... F6 = F1 ... F6
+
+Cursor keys are cursor keys.
+
+Esc = Main Screen
+O = Open Window
++/- = Data Wheel
+
+Numberic keys = Numberic Keys
+
+Enter = Enter
+
+L = Record
+; = Overdub
+' = Stop
+\ = Play Start
+Space = Play
+
+Z, X, C, V = Pads 1, 2, 3, 4
+A, S, D, F = Pads 5, 6, 7, 8
+B, N, M, comma = Pads 9, 10, 11, 12
+G, H, J, K = Pads 13, 14, 15, 16
+
+Shift = Shift
+
+Q = Previous Step/Event
+W = Next Step/Event
+E = GO TO
+R = Previous Bar/Start
+T = Next Bar/End
+
+Y = Tap
+
+] = Track Mute
