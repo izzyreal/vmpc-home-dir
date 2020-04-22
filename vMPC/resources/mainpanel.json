@@ -246,8 +246,8 @@
 	"infosize" : [ 7, 7, 7 ],  
     "infox" : [ 206, 206, 206 ],
     "infoy" : [ 8, 29, 39 ],
- 	"fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", null, "DO IT" ],
-	"fbtypes" : [ 2, 0, 0, 0, null, 1 ],
+ 	"fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", "PLAY", "DO IT" ],
+	"fbtypes" : [ 2, 0, 0, 0, 1, 1 ],
 	"lastfocus" : "view"
   },
   

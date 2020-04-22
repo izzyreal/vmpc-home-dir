@@ -135,8 +135,8 @@
 	"infox" : [  21, 23, 23, 23, 23, 23, 84, 90, 84, 90, 84, 90, 84, 90, 84, 90 ],
 	"infoy" :  [ 10, 10, 18, 26, 34, 42, 10, 10, 18, 18, 26, 26, 34, 34, 42, 42 ],
 	"infosize" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],  
-	"fblabels" : [ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", null ],
-	"fbtypes" : [ null, 1, 1, 0, 1, null ],
+	"fblabels" : [ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", "PLAY" ],
+	"fbtypes" : [ null, 1, 1, 0, 1, 1 ],
 	"lastfocus" : "file1"
   },
   
