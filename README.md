@@ -10,4 +10,6 @@ On Mac:
 /Users/JohnDoe/vMPC
 ```
 On Linux:
+```
 ~/vMPC
+```
