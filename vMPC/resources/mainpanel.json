@@ -740,7 +740,7 @@
   "disk":
   {
     "labels" : [ "SCSI-", "Access type:", "Root:" ],
-    "x" : [ 0, 0, 0],
+    "x" : [ 0, 0, 0 ],
     "y" : [ 5, 16, 27 ],
  	"parameters" : [ "scsi", "accesstype", "root" ],
    "tfsize" : [ 1, 4, 36 ],
@@ -748,7 +748,17 @@
 	"fbtypes" : [ 0, 0, 2, null, null, 1 ],
 	"lastfocus" : "scsi"
   
-  }
+  },
   
-
+	"settings":
+	{
+		"labels" : [ "Initial pad mapping:" ],
+		"x" : [ 5 ],
+		"y" : [ 5 ],
+		"parameters" : [ "initial-pad-mapping" ],
+		"tfsize" : [ 8 ],
+		"fblabels" : [ "SETNGS", null, null, null, null, null ],
+		"fbtypes" : [ 0, null, null, null, null, null ],
+		"lastfocus" : "initial-pad-mapping"
+	}
 }
