@@ -457,7 +457,7 @@
   "x" : [ 2, 110, 2, 41, 77, 116, 149, 188, 224, 3 ],
   "y" : [ 2, 2, 12, 26, 26, 26, 26, 26, 26, 26 ],
   "parameters" : [ "drum", "pgm", "edit", "dist", "filt", "mod", "echo", "rev", "mix", "input" ],
-  "tfsize" : [ 1, 19, 9 ],
+  "tfsize" : [ 1, 19, 9, 2, 2, 2, 2, 2, 2, 2 ],
   "fblabels" : [ "DRUM 1", "DRUM 2", "DRUM 3", "DRUM 4", "SETUP", "ON/OFF" ],
   "fbtypes" : [ 0, 1, 1, 1, 0, 1 ],
   "lastfocus" : "drum"
