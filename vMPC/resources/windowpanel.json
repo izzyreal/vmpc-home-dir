@@ -71,18 +71,6 @@
 	"lastfocus" : "prog0"
   },
   
-    "filealreadyexists":
-  {
-    "labels" : [ "" ],
-    "x" : [ 0 ],
-    "y" : [ 0 ],
-    "tfsize" : [ 0 ],
-	"parameters" : ["dummy" ],
-	"fblabels" : [ null, null, "REPLAC", "CANCEL", "RENAME", null],
-	"fbtypes" : [ null, null, 1, 0, 1, null ],
-	"lastfocus" : "dummy"
-  },
-
  "assignmentview":
    {
     "labels" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
