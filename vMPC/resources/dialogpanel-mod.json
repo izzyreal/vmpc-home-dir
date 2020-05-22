@@ -1,0 +1,309 @@
+{
+    "name":
+  {
+  	"labels" : [ "New name:", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+  	"x" : [ 53, 113, 119, 125, 131, 137, 143, 149, 155, 161, 167, 173, 179, 185, 191, 197 ],
+  	"y" : [ 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 ],
+  	"tfsize" : [ 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ],
+  	"parameters" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
+  	"fblabels" : [ null, "COPY", "PASTE", "CANCEL", "ENTER", null ],
+  	"fbtypes" : [ null, 1, 1, 0, 1, null ],
+  	"lastfocus" : "0"
+  },
+    "filealreadyexists":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : ["dummy" ],
+	"fblabels" : [ null, null, "REPLAC", "CANCEL", "RENAME", null],
+	"fbtypes" : [ null, null, 1, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+
+"recordjam":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, null, null, "CANCEL", "OK", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+  
+"deleteallsequences":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+
+"deletealltracks":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+  
+"deleteprogram":
+  {
+    "labels" : [ "Pgm:" ],
+    "x" : [ 73 ],
+    "y" : [ 17 ],
+    "tfsize" : [ 114 ],
+	"parameters" : [ "pgm" ],
+	"fblabels" : [ null, null, "ALLpgm", "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, 1, 0, 1, null ],
+	"lastfocus" : "pgm"
+  },
+
+"deletefolder":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+
+"deletefile":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, "ALL", null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, 1, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+
+"createnewprogram":
+  {
+    "labels" : [ "New name:", "MIDI program change:" ],
+    "x" : [ 73, 73],
+    "y" : [ 19, 35 ],
+    "tfsize" : [ 96, 18 ],
+	"parameters" : [ "newname", "midiprogramchange" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "newname"
+  },
+
+"copyprogram":
+  {
+    "labels" : [ "Pgm:", "Pgm:" ],
+    "x" : [ 73, 73],
+    "y" : [ 16, 40 ],
+    "tfsize" : [ 114, 114 ],
+	"parameters" : [ "pgm0", "pgm1" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "pgm0"
+  },
+
+"copysound":
+  {
+    "labels" : [ "Snd:", "New Name:" ],
+    "x" : [ 91, 61 ],
+    "y" : [ 16, 40 ],
+    "tfsize" : [ 96, 96 ],
+	"parameters" : [ "snd", "newname" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "snd"
+  },
+
+"deleteallprograms":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+  
+      "deletesound":
+  {
+    "labels" : [ "Snd:" ],
+    "x" : [ 73 ],
+    "y" : [ 17 ],
+    "tfsize" : [ 96 ],
+	"parameters" : [ "snd" ],
+	"fblabels" : [ null, null, "ALL", "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, 1, 0, 1, null ],
+	"lastfocus" : "snd"
+  },
+  
+    "deleteallsound":
+  {
+    "labels" : [ "" ],
+    "x" : [ 0 ],
+    "y" : [ 0 ],
+    "tfsize" : [ 0 ],
+	"parameters" : [ "dummy" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "dummy"
+  },
+
+   "convertsound":
+  {
+    "labels" : [ "Convert:" ],
+    "x" : [ 79 ],
+    "y" : [ 27 ],
+    "tfsize" : [ 84 ],
+	"parameters" : [ "convert" ],
+	"fblabels" : [ null, null, null, "CANCEL", "NEXT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "convert"
+  },
+  
+   "monotostereo":
+  {
+    "labels" : [ "L source:", "R source:", "New ST name:" ],
+    "x" : [ 85, 85, 67 ],
+    "y" : [ 15, 30, 40 ],
+    "tfsize" : [ 96, 96, 96 ],
+	"parameters" : [ "lsource", "rsource", "newstname" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "lsource"
+  },
+  
+   "stereotomono":
+  {
+    "labels" : [ "Stereo source:", "New L name:", "New R name:" ],
+    "x" : [ 55, 73, 73 ],
+    "y" : [ 15, 30, 40 ],
+    "tfsize" : [ 96, 96, 96 ],
+	"parameters" : [ "stereosource", "newlname", "newrname" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "stereosource"
+  },
+  
+	"convertnodoit":
+	{
+	"fblabels" : [ null, null, null, "CANCEL", null, null],
+	"fbtypes" : [ null, null, null, 0, null, null ]
+  },
+
+    "resample":
+  {
+    "labels" : [ "New Fs:", "Hz  Quality:", "New Bit:", "New name:" ],
+    "x" : [ 67, 139, 61, 55 ],
+    "y" : [ 15, 15, 26, 37 ],
+    "tfsize" : [ 30, 24, 30, 96 ],
+	"parameters" : [ "newfs", "quality", "newbit", "newname" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "newfs"
+  },
+  
+  "bpmmatch":
+  {
+    "labels" : [ "Beat:", "Source tempo:", "New tempo:" ],
+    "x" : [ 140, 92, 110],
+    "y" : [ 17, 26, 36 ],
+    "tfsize" : [ 12, 30, 30 ],
+	"parameters" : [ "beat", "sourcetempo", "newtempo" ],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"lastfocus" : "beat"
+  },
+  
+  "deletesong":
+  {
+    "labels" : [ "Song:" ],
+    "x" : [ 61 ],
+    "y" : [ 16 ],
+    "tfsize" : [ 114 ],
+	"parameters" : [ "song" ],
+	"fblabels" : [ null, null, "ALL SG", "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, 1, 0, 1, null ],
+	"lastfocus" : "song"
+  },
+  
+  "metronomesound":
+  {
+    "labels" : [ "Sound:", "Volume:", "Output:", "Accent:", "Normal:", ":", ":" ],
+    "x" : [ 40, 52, 52, 52, 52, 156, 156  ],
+    "y" : [ 12, 24, 34,  24, 34, 24, 34 ],
+    "tfsize" : [ 30, 18, 36, 36, 36, 18, 18 ],
+	"parameters" : [ "sound", "volume", "output", "accent", "normal", "velocityaccent", "velocitynormal" ],
+	"fblabels" : [ null, null, null, "CLOSE", null, null],
+	"fbtypes" : [ null, null, null, 0, null, null ],
+	"lastfocus" : "sound"
+  },
+  
+    "deletetrack":
+  {
+  	"labels" : [ "Tr:" ],
+  	"x" : [ 70 ],
+  	"y" : [ 17 ],
+  	"tfsize" : [ 114 ],
+  	"parameters" : [ "tr" ],
+  	"fblabels" : [ null, null, "ALL Tr", "CANCEL", "DO IT", null ],
+  	"fbtypes" : [ null, null, 1, 0, 1, null ],
+  	"lastfocus" : "tr"
+  },
+  
+    "copytrack":
+  {
+  	"labels" : [ "Tr:" , "Tr:" ],
+  	"x" : [ 70, 70  ],
+  	"y" : [ 16, 40 ],
+  	"tfsize" : [ 114, 114 ],
+  	"parameters" : [ "tr0", "tr1" ],
+  	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
+  	"fbtypes" : [ null, null, null, 0, 1, null ],
+  	"lastfocus" : "tr0"
+  },
+  
+    "copysequence":
+  {
+  	"labels" : [ "Sq:" , "Sq:" ],
+  	"x" : [ 70, 70  ],
+  	"y" : [ 16, 40 ],
+  	"tfsize" : [ 114, 114 ],
+  	"parameters" : [ "sq0", "sq1" ],
+  	"fblabels" : [ null, null, "PARAM", "CANCEL", "DO IT", null ],
+  	"fbtypes" : [ null, null, 1, 0, 1, null ],
+  	"lastfocus" : "sq0"
+  },
+  
+  "deletesequence":
+  {
+    "labels" : [ "Sq:" ],
+    "x" : [ 73 ],
+    "y" : [ 17 ],
+    "tfsize" : [ 96 ],
+	"parameters" : [ "sq" ],
+	"fblabels" : [ null, null, "ALL SQ", "CANCEL", "DO IT", null],
+	"fbtypes" : [ null, null, 1, 0, 1, null ],
+	"lastfocus" : "sq"
+  },
+  "midimonitor":
+  {
+  }
+}

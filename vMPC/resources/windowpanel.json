@@ -6,7 +6,7 @@
     "y" : [ 12, 22, 22, 32, 32, 32, 32, 32, 32, 42, 12, 22, 32 ],
     "tfsize" : [ 12, 19, 11, 3, 2, 2, 3, 2, 2, 8, 3, 3, 4 ],
 	"parameters" : [ "record", "sq", "song", "time0", "time1", "time2", "time3", "time4", "time5", "outputfolder", "splitlr", "offline", "rate" ],
-	"fblabels" : [ null, null, null, "CANCEL", "RECORD", null],
+	"fblabels" : [ null, null, null, "CANCEL", "RECORD", null ],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "record"
 },
@@ -18,7 +18,7 @@
     "y" : [ 0 ],
     "tfsize" : [ 0 ],
 	"parameters" : [ "dummy" ],
-	"fblabels" : [ null, null, null, "CLOSE", null, null],
+	"fblabels" : [ null, null, null, "CLOSE", null, null ],
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "dummy"
 },
@@ -30,7 +30,7 @@
     "y" : [ 28 ],
     "tfsize" : [ 4 ],
 	"parameters" : [ "frames" ],
-	"fblabels" : [ null, null, null, "CLOSE", null, null],
+	"fblabels" : [ null, null, null, "CLOSE", null, null ],
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "frames"
 },
@@ -42,7 +42,7 @@
     "y" : [ 0 ],
     "tfsize" : [ 0 ],
 	"parameters" : [ "dummy" ],
-	"fblabels" : [ null, null, null, "CLOSE", null, null],
+	"fblabels" : [ null, null, null, "CLOSE", null, null ],
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "dummy"
 },
@@ -54,7 +54,7 @@
     "y" : [ 0 ],
     "tfsize" : [ 0 ],
 	"parameters" : [ "dummy" ],
-	"fblabels" : [ null, null, "<SEQ>", "CANCEL", "LOAD", null],
+	"fblabels" : [ null, null, "<SEQ>", "CANCEL", "LOAD", null ],
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
@@ -66,7 +66,7 @@
     "y" : [ 11, 20, 32, 41 ],
     "tfsize" : [ 19, 23, 19, 23 ],
 	"parameters" : [ "prog0", "note0", "prog1", "note1" ],
-	"fblabels" : [ null, null, null, "CLOSE", "DO IT", null],
+	"fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "prog0"
   },
@@ -82,7 +82,7 @@
 	"infox" : [ 19, 91, 104 ],
 	"infoy" : [ 9, 9, 9 ],
 	"infosize" : [ 12, 2, 21 ],
-	"fblabels" : [ null, null, null, "CLOSE", null, null],
+	"fblabels" : [ null, null, null, "CLOSE", null, null ],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "a0"
   },
@@ -94,7 +94,7 @@
     "y" : [ 21 ],
     "tfsize" : [ 7 ],
 	"parameters" : [ "initpadassign" ],
-	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "initpadassign"
   },
@@ -249,7 +249,7 @@
   	"labels" : [ "label0", "label1" ],
   	"x" : [50, 50 ],
   	"y" : [25, 34 ],
-  	"tfsize" : [3,3],
+  	"tfsize" : [3, 3 ],
   	"parameters" : [ "value0", "value1" ],
   	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
@@ -359,7 +359,7 @@
       "program":
   {
   	"labels" : [ "Program name:", "MIDI program change:" ],
-  	"x" : [ 43,55 ],
+  	"x" : [ 43, 55 ],
   	"y" : [ 19, 37 ],
   	"tfsize" : [ 16, 3 ],
   	"parameters" : [ "programname", "midiprogramchange" ],
@@ -379,7 +379,7 @@
 	"infox" : [ 37, 139, 139 ],
 	"infoy" : [ 39, 30, 39 ],
 	"infosize" : [ 15, 15, 15 ],
-	"fblabels" : [ null, "DELETE", "CONVRT", "CLOSE", "COPY", null],
+	"fblabels" : [ null, "DELETE", "CONVRT", "CLOSE", "COPY", null ],
 	"fbtypes" : [ null, 1, 1, 0, 1, null ],
 	"lastfocus" : "soundname"
   },
@@ -387,7 +387,7 @@
   "velocitymodulation":
   {
   	"labels" : [ "Note:", "Velo Attack:", "Velo  Start:", "Velo  Level:", "Velo:" ],
-  	"x" : [ 25, 31, 31, 31, 169],
+  	"x" : [ 25, 31, 31, 31, 169 ],
   	"y" : [ 11, 23, 33, 43, 40 ],
   	"tfsize" : [ 27, 3, 3, 3, 3 ],
   	"parameters" : [ "note", "veloattack", "velostart", "velolevel", "velo" ],
@@ -477,7 +477,7 @@
   	"labels" : [ "HIGH:", "", "MID1:", "", "", "", "", "MID2", "", "", "", "", "LOW:", "" ],
   	"x" : [ 19, 85, 19, 85, 127, 157, 211, 19, 85, 127, 157, 211, 19, 85 ],
   	"y" : [11, 11, 21, 21, 21, 21, 21, 31, 31, 31, 31, 31, 41, 41 ],
-  	"tfsize" : [ 3, 3, 3, 3, 2, 3, 2, 3, 3, 2, 3, 2, 3, 3],
+  	"tfsize" : [ 3, 3, 3, 3, 2, 3, 2, 3, 3, 2, 3, 2, 3, 3 ],
   	"parameters" : [ "high0", "high1", "mid10", "mid11", "mid12", "mid13", "mid14", "mid20", "mid21", "mid22", "mid23", "mid24", "low0", "low1" ],
   	"fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
@@ -535,7 +535,7 @@
    "modulation_pitchshift":
   {
   	"labels" : [ "Type:", "Tune:", "" ],
-  	"x" : [ 19, 115, 187],
+  	"x" : [ 19, 115, 187 ],
   	"y" : [ 11, 21, 21 ],
   	"tfsize" : [ 19, 6, 6 ],
   	"parameters" : [ "type" ],
@@ -559,7 +559,7 @@
     "delayecho":
   {
   	"labels" : [ "Type:", "Feedback:", "Feedback delay:", "HF damping:", "L/R delay offset:" ],
-  	"x" : [ 19, 139, 103, 127, 91],
+  	"x" : [ 19, 139, 103, 127, 91 ],
   	"y" : [ 11, 11, 21, 31, 41 ],
   	"tfsize" : [ 19, 3, 5, 5, 4 ],
   	"parameters" : [ "type", "feedback", "feedbackdelay", "hfdamping", "lrdelayoffset" ],
@@ -571,7 +571,7 @@
     "delayecho_stereo":
   {
   	"labels" : [ "Type:", "Feedback: ", "", "Feedback delay:", "", "HF damping:", "" ],
-  	"x" : [ 19, 97, 199, 61, 193, 85, 193],
+  	"x" : [ 19, 97, 199, 61, 193, 85, 193 ],
   	"y" : [ 11, 21, 21, 31, 31, 41, 41 ],
   	"tfsize" : [ 19, 3, 5, 5, 4 ],
   	"parameters" : [ "type", "feedbackleft", "feedbackright", "feedbackdelayleft", "feedbackdelayright", "hfdampingleft", "hfdampingright" ],
@@ -623,7 +623,7 @@
   "startfine":
   {
   	"labels" : [ "Start:", "Smpl Lgnth:", "PLAY X:" ],
-  	"x" : [ 145, 139, 139],
+  	"x" : [ 145, 139, 139 ],
   	"y" : [ 14, 33, 42 ],
   	"tfsize" : [ 8, 4, 8 ],
   	"parameters" : [ "start", "smpllngth", "playx" ],
@@ -639,7 +639,7 @@
   "zonestartfine":
   {
   	"labels" : [ "Start:", "PLAY X:" ],
-  	"x" : [ 145, 139],
+  	"x" : [ 145, 139 ],
   	"y" : [ 14, 42 ],
   	"tfsize" : [ 8, 8 ],
   	"parameters" : [ "start", "playx" ],
@@ -655,7 +655,7 @@
     "endfine":
   {
   	"labels" : [ "  End:", "Smpl Lgnth:", "PLAY X:" ],
-  	"x" : [ 145, 139, 139],
+  	"x" : [ 145, 139, 139 ],
   	"y" : [ 14, 33, 42 ],
   	"tfsize" : [ 8, 4, 8 ],
   	"parameters" : [ "end", "smpllngth", "playx" ],
@@ -671,7 +671,7 @@
     "zoneendfine":
   {
   	"labels" : [ "  End:", "PLAY X:" ],
-  	"x" : [ 145, 139],
+  	"x" : [ 145, 139 ],
   	"y" : [ 14, 42 ],
   	"tfsize" : [ 8, 8 ],
   	"parameters" : [ "end", "playx" ],
@@ -687,7 +687,7 @@
   "looptofine":
   {
   	"labels" : [ "   To:", "Lngth:", "Loop Lngth:", "PLAY X:" ],
-  	"x" : [ 145, 145, 139, 139],
+  	"x" : [ 145, 145, 139, 139 ],
   	"y" : [ 14, 23, 33, 42 ],
   	"tfsize" : [ 8, 8, 4, 8 ],
   	"parameters" : [ "to", "lngth", "looplngth", "playx" ],
@@ -699,7 +699,7 @@
   "loopendfine":
   {
   	"labels" : [ "  End:", "Lngth:", "Loop Lgnth:", "PLAY X:" ],
-  	"x" : [ 145, 145, 139, 139],
+  	"x" : [ 145, 145, 139, 139 ],
   	"y" : [ 14, 23, 33, 42 ],
   	"tfsize" : [ 8, 8, 4, 8 ],
   	"parameters" : [ "end", "lngth", "looplngth", "playx" ],
@@ -796,8 +796,8 @@
   "timedisplay":
   {
     "labels" : [ "Display style:", "Start time:", "h", "m", "s", "f", "Frame rate:" ],
-    "x" : [ 32, 50, 128, 146, 164, 182, 50],
-    "y" : [ 13, 23, 23, 23, 23, 23, 33],
+    "x" : [ 32, 50, 128, 146, 164, 182, 50 ],
+    "y" : [ 13, 23, 23, 23, 23, 23, 33 ],
  	"parameters" : [ "displaystyle", "starttime", "h", "m", "s", "f", "framerate" ],
    "tfsize" : [ 15, 2, 2, 2, 2, 2, 3 ],
 	"fblabels" : [ null, null, null, "CLOSE", null, null ],
@@ -921,8 +921,8 @@
   "countmetronome":
   {
   	"labels" : [ "Count IN:", "In play:", "Rate:", "In rec :", "Wait for key:" ],
-  	"x" : [ 40, 153, 64, 153, 28],
-  	"y" : [ 14, 14,  24, 24, 42],
+  	"x" : [ 40, 153, 64, 153, 28 ],
+  	"y" : [ 14, 14,  24, 24, 42 ],
   	"tfsize" : [ 8, 3, 7, 3, 3 ],
   	"parameters" : [ "countin", "inplay", "rate", "inrec", "waitforkey" ],
   	"fblabels" : [ null, null, null, "CLOSE", "SOUND", null ],
