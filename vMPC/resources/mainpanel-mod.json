@@ -83,8 +83,8 @@
 	28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28,
 	41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41 ],
 
-  	"fblabels" : [[ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ]],
-	"fbtypes" : [[ 2, 0, 0, 0, 0, 1 ], [ 2, 0, 0, 0, 0, 1 ], [ 0, 2, 0, 0, 0, 1 ], [ 0, 0, 2, 0, 0, 1 ], [ 2, 0, 0, 0, 0, 1 ], [ 0, 2, 0, 0, 0, 1 ], [ 0, 0, 2, 0, 0, 1 ]],
+  	"fblabels" : [[ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ]],
+	"fbtypes" : [[ 2, 0, 0, 0, 0, 1 ], [ 0, 2, 0, 0, 0, 1 ], [ 0, 0, 2, 0, 0, 1 ], [ 2, 0, 0, 0, 0, 1 ], [ 0, 2, 0, 0, 0, 1 ], [ 0, 0, 2, 0, 0, 1 ]],
 	"lastfocus" : "dummy"
   	},
 	

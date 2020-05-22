@@ -173,8 +173,8 @@
     "y" : [ 27 ],
     "tfsize" : [ 84 ],
 	"parameters" : [ "convert" ],
-	"fblabels" : [ null, null, null, "CANCEL", "NEXT", null],
-	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"fblabels" : [[ null, null, null, "CANCEL", "NEXT", null], [ null, null, null, "CANCEL", null, null]],
+	"fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]],
 	"lastfocus" : "convert"
   },
   
@@ -201,13 +201,6 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "stereosource"
   },
-  
-	"convertnodoit":
-	{
-	"fblabels" : [ null, null, null, "CANCEL", null, null],
-	"fbtypes" : [ null, null, null, 0, null, null ]
-  },
-
     "resample":
   {
     "labels" : [ "New Fs:", "Hz  Quality:", "New Bit:", "New name:" ],
