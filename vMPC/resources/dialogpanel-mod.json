@@ -185,8 +185,8 @@
     "y" : [ 15, 30, 40 ],
     "tfsize" : [ 96, 96, 96 ],
 	"parameters" : [ "lsource", "rsource", "newstname" ],
-	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
-	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"fblabels" : [[ null, null, null, "CANCEL", "DO IT", null], [ null, null, null, "CANCEL", null, null]],
+	"fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]],
 	"lastfocus" : "lsource"
   },
   
@@ -197,8 +197,8 @@
     "y" : [ 15, 30, 40 ],
     "tfsize" : [ 96, 96, 96 ],
 	"parameters" : [ "stereosource", "newlname", "newrname" ],
-	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
-	"fbtypes" : [ null, null, null, 0, 1, null ],
+	"fblabels" : [[ null, null, null, "CANCEL", "DO IT", null], [ null, null, null, "CANCEL", null, null]],
+	"fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]],
 	"lastfocus" : "stereosource"
   },
     "resample":
