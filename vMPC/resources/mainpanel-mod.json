@@ -164,7 +164,7 @@
 	"lastfocus" : "type"
   },
   
-  "selectdrum":
+  "select-drum":
   {
   "labels" : [ "" ],
   "x" : [ 0 ],
@@ -176,7 +176,7 @@
   "lastfocus" : "dummy"
   },
   
-  "selectdrum_mixer":
+  "select-mixer-drum":
   {
   "labels" : [ "" ],
   "x" : [ 0 ],
@@ -188,7 +188,7 @@
   "lastfocus" : "dummy"
   },
   
-   "mixersetup":
+   "mixer-setup":
   {
   "labels" : [ "Stereo mix source:", "INDIV/FX source:", "Copy pgm to drum:", "Record mix changes:", "", "Drum:" ],
   "x" : [ 9, 21, 15, 28, 193, 187 ],
@@ -336,7 +336,7 @@
   "lastfocus" : "dummy"
   },
   
-    "fxedit":
+    "fx-edit":
   {
   "labels" : [ "Drum:", "Pgm:", "Edit:", "", "", "", "", "", "", "Input:" ],
   "x" : [ 2, 110, 2, 41, 77, 116, 149, 188, 224, 3 ],
