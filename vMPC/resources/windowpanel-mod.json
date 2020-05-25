@@ -1082,13 +1082,13 @@
   	"lastfocus" : "trackname"
   },
   
- "numberofzones":
+ "number-of-zones":
   {
   	"labels" : [ "Number of zones:" ],
   	"x" : [ 65 ],
   	"y" : [ 14 ],
   	"tfsize" : [ 12 ],
-  	"parameters" : [ "numberofzones" ],
+  	"parameters" : [ "number-of-zones" ],
   	"fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "numberofzones"
