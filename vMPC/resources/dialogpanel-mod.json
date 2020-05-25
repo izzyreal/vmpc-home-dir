@@ -118,7 +118,7 @@
 	"lastfocus" : "pgm0"
   },
 
-"copysound":
+"copy-sound":
   {
     "labels" : [ "Snd:", "New Name:" ],
     "x" : [ 91, 61 ],
@@ -190,7 +190,7 @@
 	"lastfocus" : "lsource"
   },
   
-   "stereotomono":
+   "stereo-to-mono":
   {
     "labels" : [ "Stereo source:", "New L name:", "New R name:" ],
     "x" : [ 55, 73, 73 ],
