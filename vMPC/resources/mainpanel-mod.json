@@ -200,6 +200,17 @@
   "lastfocus" : "stereomixsource"
   },
   
+  "fx-edit":
+  {
+  "labels" : [ "Drum:", "Pgm:", "Edit:", "", "", "", "", "", "", "Input:" ],
+  "x" : [ 2, 110, 2, 41, 77, 116, 149, 188, 224, 3 ],
+  "y" : [ 2, 2, 12, 26, 26, 26, 26, 26, 26, 26 ],
+  "parameters" : [ "drum", "pgm", "edit", "dist", "filt", "mod", "echo", "rev", "mix", "input" ],
+  "tfsize" : [ 6, 114, 54, 12, 12, 12, 12, 12, 12, 12 ],
+  "fblabels" : [ "DRUM 1", "DRUM 2", "DRUM 3", "DRUM 4", "SETUP", "ON/OFF" ],
+  "fbtypes" : [ 0, 1, 1, 1, 0, 1 ],
+  "lastfocus" : "drum"
+  },
   "programassign":
   {
 	"labels" : [ "Pgm:", "Pad:", "=Note:", "Pad assign:", "Note:", "=Snd:", "Mode:", "If over:", "If over:", "Also play note:", "Also play note:" ],

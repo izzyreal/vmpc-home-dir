@@ -344,7 +344,7 @@
   	"lastfocus" : "dummy"
   },
   
-     "channelsettings":
+     "channel-settings":
   {
   	"labels" : [ "Note:", "Vol:", "Vol: ", "", "Pan:", "Out:", "", "" ],
   	"x" : [ 31, 43, 97, 160, 43, 97, 163, 199  ],
@@ -620,83 +620,49 @@
   	"lastfocus" : "dummy"
   },
   
-  "startfine":
+  "start-fine":
   {
   	"labels" : [ "Start:", "Smpl Lgnth:", "PLAY X:" ],
   	"x" : [ 145, 139, 139 ],
   	"y" : [ 14, 33, 42 ],
-  	"tfsize" : [ 48, 24, 48 ],
+  	"tfsize" : [ 49, 24, 48 ],
   	"parameters" : [ "start", "smpllngth", "playx" ],
   	"infowidgets" : [ "lngth" ], 
   	"infox" : [ 181 ],
   	"infoy" : [ 22 ],
-  	"infosize" : [ 8 ],
+  	"infosize" : [ 48 ],
   	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
   	"lastfocus" : "start"
   },
-  
-  "zonestartfine":
-  {
-  	"labels" : [ "Start:", "PLAY X:" ],
-  	"x" : [ 145, 139 ],
-  	"y" : [ 14, 42 ],
-  	"tfsize" : [ 48, 48 ],
-  	"parameters" : [ "start", "playx" ],
-  	"infowidgets" : [ "lngth" ], 
-  	"infox" : [ 181 ],
-  	"infoy" : [ 22 ],
-  	"infosize" : [ 8 ],
-  	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
-  	"fbtypes" : [ null, 1, 1, 0, 1, null ],
-  	"lastfocus" : "start"
-  },
-  
-    "endfine":
+  "end-fine":
   {
   	"labels" : [ "  End:", "Smpl Lgnth:", "PLAY X:" ],
   	"x" : [ 145, 139, 139 ],
   	"y" : [ 14, 33, 42 ],
-  	"tfsize" : [ 48, 24, 48 ],
+  	"tfsize" : [ 49, 24, 48 ],
   	"parameters" : [ "end", "smpllngth", "playx" ],
   	"infowidgets" : [ "lngth" ], 
   	"infox" : [ 181 ],
   	"infoy" : [ 23 ],
-  	"infosize" : [ 8 ],
+  	"infosize" : [ 48 ],
   	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
   	"lastfocus" : "end"
   },
-
-    "zoneendfine":
-  {
-  	"labels" : [ "  End:", "PLAY X:" ],
-  	"x" : [ 145, 139 ],
-  	"y" : [ 14, 42 ],
-  	"tfsize" : [ 48, 48 ],
-  	"parameters" : [ "end", "playx" ],
-  	"infowidgets" : [ "lngth" ], 
-  	"infox" : [ 181 ],
-  	"infoy" : [ 23 ],
-  	"infosize" : [ 8 ],
-  	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
-  	"fbtypes" : [ null, 1, 1, 0, 1, null ],
-  	"lastfocus" : "end"
-  },
-
-  "looptofine":
+  "loop-to-fine":
   {
   	"labels" : [ "   To:", "Lngth:", "Loop Lngth:", "PLAY X:" ],
   	"x" : [ 145, 145, 139, 139 ],
   	"y" : [ 14, 23, 33, 42 ],
-  	"tfsize" : [ 48, 48, 24, 48 ],
+  	"tfsize" : [ 49, 49, 24, 48 ],
   	"parameters" : [ "to", "lngth", "looplngth", "playx" ],
   	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
   	"lastfocus" : "to"
   },
     
-  "loopendfine":
+  "loop-end-fine":
   {
   	"labels" : [ "  End:", "Lngth:", "Loop Lgnth:", "PLAY X:" ],
   	"x" : [ 145, 145, 139, 139 ],
@@ -707,14 +673,43 @@
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
   	"lastfocus" : "end"
   },
-    
-  "editsound":
+  "zone-start-fine":
+  {
+  	"labels" : [ "Start:", "PLAY X:" ],
+  	"x" : [ 145, 139 ],
+  	"y" : [ 14, 42 ],
+  	"tfsize" : [ 49, 48 ],
+  	"parameters" : [ "start", "playx" ],
+  	"infowidgets" : [ "lngth" ], 
+  	"infox" : [ 181 ],
+  	"infoy" : [ 22 ],
+  	"infosize" : [ 48 ],
+  	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
+  	"fbtypes" : [ null, 1, 1, 0, 1, null ],
+  	"lastfocus" : "start"
+  },
+    "zone-end-fine":
+  {
+  	"labels" : [ "  End:", "PLAY X:" ],
+  	"x" : [ 145, 139 ],
+  	"y" : [ 14, 42 ],
+  	"tfsize" : [ 49, 48 ],
+  	"parameters" : [ "end", "playx" ],
+  	"infowidgets" : [ "lngth" ], 
+  	"infox" : [ 181 ],
+  	"infoy" : [ 23 ],
+  	"infosize" : [ 48 ],
+  	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
+  	"fbtypes" : [ null, 1, 1, 0, 1, null ],
+  	"lastfocus" : "end"
+  },
+  "edit-sound":
   {
   	"labels" : [ "Edit:", "New name:", "Ratio:", "Preset:", "Adjust:", "End margin:", "Create new program:" ],
   	"x" : [ 19, 19, 19, 19, 151, 77, 29 ],
   	"y" : [ 11, 21, 31, 41, 41, 23, 34 ],
   	"tfsize" : [ 174, 120, 42, 84, 24, 18, 18 ],
-  	"parameters" : [ "edit", "variable0", "variable1", "variable2", "variable3", "endmargin", "createnewprogram" ],
+  	"parameters" : [ "edit", "new-name", "ratio", "preset", "adjust", "end-margin", "create-new-program" ],
   	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "edit"
