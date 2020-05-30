@@ -211,7 +211,7 @@
   "fbtypes" : [ 0, 1, 1, 1, 0, 1 ],
   "lastfocus" : "drum"
   },
-  "programassign":
+  "program-assign":
   {
 	"labels" : [ "Pgm:", "Pad:", "=Note:", "Pad assign:", "Note:", "=Snd:", "Mode:", "If over:", "If over:", "Also play note:", "Also play note:" ],
 	"x" : [ 3,  8, 50, 130,  8, 50,  8, 90, 90, 108, 108 ],
