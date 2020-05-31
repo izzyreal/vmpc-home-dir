@@ -2,8 +2,8 @@
 "black":
 {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
 	"fblabels": [ null , null, null, null, null, null],
@@ -13,8 +13,8 @@
 "mpc2000xl":
 {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
 	"fblabels": [ null , null, null, null, null, null],
@@ -50,39 +50,10 @@
 "mixer":
 {
 	"labels" : [ "" ],
-	
 	"parameters": [ "dummy"	],
-	
 	"tfsize": [ 0 ],
-	
-	"x" : [ 0 ],
-	
-	"y" : [	0 ],
-  	
-    "infowidgets" : [ "a0", "b0", "c0", "d0", "e0", "f0", "g0", "h0", "i0", "j0", "k0", "l0", "m0", "n0", "o0", "p0",  
-	"a1", "b1", "c1", "d1", "e1", "f1", "g1", "h1", "i1", "j1", "k1", "l1", "m1", "n1", "o1", "p1",  
-	"a2", "b2", "c2", "d2", "e2", "f2", "g2", "h2", "i2", "j2", "k2", "l2", "m2", "n2", "o2", "p2",  
-	"a3", "b3", "c3", "d3", "e3", "f3", "g3", "h3", "i3", "j3", "k3", "l3", "m3", "n3", "o3", "p3",  
-	"a4", "b4", "c4", "d4", "e4", "f4", "g4", "h4", "i4", "j4", "k4", "l4", "m4", "n4", "o4", "p4" ],
-	
-	"infosize" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-	1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-	1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-	1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-	1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-	
-    "infox" : [ 5, 20, 35, 50, 65, 80, 95, 110, 125, 140, 155, 170, 185, 200, 215, 230,
-	11, 26, 41, 56, 71, 86, 101, 116, 131, 146, 161, 176, 191, 206, 221, 236,
-	5, 20, 35, 50, 65, 80, 95, 110, 125, 140, 155, 170, 185, 200, 215, 230,
-	5, 20, 35, 50, 65, 80, 95, 110, 125, 140, 155, 170, 185, 200, 215, 230,
-	5, 20, 35, 50, 65, 80, 95, 110, 125, 140, 155, 170, 185, 200, 215, 230 ],
-	
-    "infoy" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
-	2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,	  
-	15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
-	28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28,
-	41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41 ],
-
+	"x" : [ 1 ],
+	"y" : [	1 ],
   	"fblabels" : [[ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ], [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "CLEAR" ]],
 	"fbtypes" : [[ 2, 0, 0, 0, 0, 1 ], [ 0, 2, 0, 0, 0, 1 ], [ 0, 0, 2, 0, 0, 1 ], [ 2, 0, 0, 0, 0, 1 ], [ 0, 2, 0, 0, 0, 1 ], [ 0, 0, 2, 0, 0, 1 ]],
 	"lastfocus" : "dummy"
@@ -167,8 +138,8 @@
   "select-drum":
   {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
   "fblabels" : [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
@@ -179,8 +150,8 @@
   "select-mixer-drum":
   {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
   "fblabels" : [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
@@ -334,8 +305,8 @@
   "purge":
   {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
   "infowidgets" : [ "value" ],
@@ -374,8 +345,8 @@
    "init":
   {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
   "fblabels" : [ "OTHERS", "INIT", "VER.", null, null, "DO IT" ],
@@ -386,8 +357,8 @@
    "ver":
   {
   "labels" : [ "" ],
-  "x" : [ 0 ],
-  "y" : [ 0 ],
+  "x" : [ 1 ],
+  "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
   "fblabels" : [ "OTHERS", "INIT", "VER.", null, null, null ],
@@ -450,8 +421,8 @@
   "trim":
   {
   "labels" : [ "Snd:", "PLAY X:", "St:", "End:", "View:", "" ],
-  "x" : [ 2, 157, 8, 98, 186, 0 ],
-  "y" : [ 2, 1, 12, 12, 12, 0 ],
+  "x" : [ 2, 157, 8, 98, 186, 1 ],
+  "y" : [ 2, 1, 12, 12, 12, 1 ],
   "parameters" : [ "snd", "playx", "st", "end", "view", "dummy" ],
   "tfsize" : [ 120, 48, 55, 55, 30, 0 ],
   "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
@@ -462,8 +433,8 @@
    "loop":
   {
   "labels" : [ "Snd:", "PLAY X:", "To:", "", ":", "Loop:", "" ],
-  "x" : [ 2, 157, 8, 86, 116, 186, 0 ],
-  "y" : [ 2, 1, 12, 12, 12, 12, 0 ],
+  "x" : [ 2, 157, 8, 86, 116, 186, 1 ],
+  "y" : [ 2, 1, 12, 12, 12, 12, 1 ],
   "parameters" : [ "snd", "playx", "to", "endlength", "endlengthvalue", "loop", "dummy" ],
   "tfsize" : [ 120, 48, 55, 31, 55, 30, 0 ],
   "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
@@ -474,8 +445,8 @@
   "zone":
   {
   "labels" : [ "Snd:", "PLAY X:", "St:", "End:", "Zone:", "" ],
-  "x" : [ 2, 157, 8, 98, 190, 0],
-  "y" : [ 2, 1, 12, 12, 12, 0 ],
+  "x" : [ 2, 157, 8, 98, 190, 1 ],
+  "y" : [ 2, 1, 12, 12, 12, 1 ],
   "parameters" : [ "snd", "playx", "st", "end", "zone", "dummy" ],
   "tfsize" : [ 120, 48, 55, 55, 12, 0 ],
   "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
@@ -486,8 +457,8 @@
    "params":
   {
   "labels" : [ "Snd:", "PLAY X:", "Level:", "Beat:", "Tune:", "" ],
-  "x" : [ 2, 157, 14, 183, 14,  0 ],
-  "y" : [ 2, 1, 18, 17, 33, 0 ],
+  "x" : [ 2, 157, 14, 183, 14,  1 ],
+  "y" : [ 2, 1, 18, 17, 33, 1 ],
   "parameters" : [ "snd", "playx", "level", "beat", "tune", "dummy" ],
   "tfsize" : [ 120, 48, 18, 12, 24, 0 ],
   "infowidgets" : [ "sample-tempo", "new-tempo" ],
@@ -612,7 +583,7 @@
    "tfsize" : [ 192, 132, 204, 132, 204 ],
 	"fblabels" : [ "AUDIO", "MIDI", "DISK", null, null, "START" ],
 	"fbtypes" : [ 2, 0, 0, null, null, 1 ],
-	"lastfocus" : "dummy"
+	"lastfocus" : "server"
   },
 
 "audio_no_start":
