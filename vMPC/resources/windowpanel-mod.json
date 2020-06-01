@@ -47,7 +47,7 @@
 	"lastfocus" : "dummy"
 },
 
-"mpc2000xlallfile":
+"mpc2000xl-all-file":
 {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -128,19 +128,19 @@
 	"lastfocus" : "file1"
   },
   
-  "loadaprogram":
+  "load-a-program":
   {
   	"labels" : [ ":" ],
   	"x" : [ 85 ],
   	"y" : [ 21 ],
   	"tfsize" : [ 60 ],
-  	"parameters" : [ "loadreplacesound" ],
+  	"parameters" : [ "load-replace-sound" ],
   	"fblabels" : [ null, null, "CLEAR", "CANCEL", "LOAD", null ],
   	"fbtypes" : [ null, null, 1, 0, 1, null ],
   	"lastfocus" : "replace"
   },
   
-  "saveallfile":
+  "save-all-file":
   {
   	"labels" : [ "File:" ],
   	"x" : [ 34 ],
@@ -156,25 +156,25 @@
   	"lastfocus" : "file"
   },
   
-  "saveapsfile":
+  "save-aps-file":
   {
   	"labels" : [ "File:", "Save:", "Replace same sounds:" ],
   	"x" : [ 34, 78, 54 ],
   	"y" : [ 13, 27, 39 ],
   	"tfsize" : [ 120, 72, 18 ],
-  	"parameters" : [ "file", "save", "replacesamesounds" ],
+  	"parameters" : [ "file", "save", "replace-same-sounds" ],
   	"fblabels" : [ null, null, null, "CANCEL", "SAVE", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "file"
   },
   
-  "saveaprogram":
+  "save-a-program":
   {
   	"labels" : [ "Save:", "Replace same sounds:" ],
   	"x" : [ 78, 54 ],
   	"y" : [ 29, 39 ],
   	"tfsize" : [ 72, 18 ],
-  	"parameters" : [ "save", "replacesamesounds" ],
+  	"parameters" : [ "save", "replace-same-sounds" ],
   	"infowidgets" : ["file" ],
 	"infosize" : [ 20 ],  
     "infox" : [ 52 ],
@@ -184,7 +184,7 @@
   	"lastfocus" : "save"
   },
   
-  "loadapsfile":
+  "load-aps-file":
   {
   	"labels"  : [ "" ],
   	"x"  : [ 1 ],
@@ -196,13 +196,13 @@
   	"lastfocus"  : "dummy"
   	},
   
-  "loadasequence":
+  "load-a-sequence":
   {
   	"labels" : [ "Load into:" ],
   	"x" : [ 42 ],
   	"y" : [ 33 ],
   	"tfsize" : [ 12 ],
-  	"parameters" : [ "loadinto" ],
+  	"parameters" : [ "load-into" ],
   	"infowidgets" : ["file", "name" ],
 	"infosize" : [ 25, 17 ],  
     "infox" : [ 36, 115 ],
@@ -212,14 +212,14 @@
   	"lastfocus" : "loadinto"
   },
   
-  "loadasequencefromall":
+  "load-a-sequence-from-all":
   {
   	"labels" : [ "File:", "Load into:" ],
   	"x" : [ 42, 42 ],
   	"y" : [ 17, 33 ],
   	"tfsize" : [ 12, 12 ],
-  	"parameters" : [ "file", "loadinto" ],
-  	"infowidgets" : ["file0", "loadinto0" ],
+  	"parameters" : [ "file", "load-into" ],
+  	"infowidgets" : ["file0", "load-into0" ],
 	"infosize" : [ 17, 17 ],  
     "infox" : [ 85, 115 ],
     "infoy" : [ 16, 32 ],  	
@@ -228,7 +228,7 @@
   	"lastfocus" : "file"
   },
   
-     "saveasequence":
+     "save-a-sequence":
   {
   	"labels" : [ "Save as:", "File:" ],
   	"x" : [ 41, 57 ],
@@ -292,14 +292,14 @@
   	"lastfocus" : "eventtype"
   },
   
-    "loadasound":
+    "load-a-sound":
   {
   	"labels" : [ "Assign to note:" ],
   	"x" : [ 50 ],
   	"y" : [ 41 ],
   	"tfsize" : [ 36 ],
-  	"parameters" : [ "assigntonote" ],
-    "infowidgets" : ["loadsoundfilename" ],
+  	"parameters" : [ "assign-to-note" ],
+    "infowidgets" : ["filename" ],
 	"infosize" : [ 25 ],  
     "infox" : [ 40 ],
     "infoy" : [ 21 ],
@@ -308,13 +308,13 @@
   	"lastfocus" : "assigntonote"
   },
   
-    "saveasound":
+    "save-a-sound":
   {
   	"labels" : [ "File:", "File type:" ],
   	"x" : [ 41, 41 ],
   	"y" : [ 19, 37 ],
   	"tfsize" : [ 120, 42 ],
-  	"parameters" : [ "file", "filetype" ],
+  	"parameters" : [ "file", "file-type" ],
   	"fblabels" : [ null, null, null, "CANCEL", "SAVE", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "assigntonote"
