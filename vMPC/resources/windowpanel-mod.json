@@ -1089,7 +1089,7 @@
   	"lastfocus" : "numberofzones"
   },
   
-    "cantfindfile":
+    "cant-find-file":
   {
   	"labels" : [ "" ],
   	"x" : [ 122 ],
