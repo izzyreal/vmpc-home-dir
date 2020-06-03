@@ -1,16 +1,5 @@
 {
-    "name":
-  {
-  	"labels" : [ "New name:", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-  	"x" : [ 53, 113, 119, 125, 131, 137, 143, 149, 155, 161, 167, 173, 179, 185, 191, 197 ],
-  	"y" : [ 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 ],
-  	"tfsize" : [ 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ],
-  	"parameters" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
-  	"fblabels" : [ null, "COPY", "PASTE", "CANCEL", "ENTER", null ],
-  	"fbtypes" : [ null, 1, 1, 0, 1, null ],
-  	"lastfocus" : "0"
-  },
-    "filealreadyexists":
+    "file-already-exists":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -34,7 +23,7 @@
 	"lastfocus" : "dummy"
   },
   
-"deleteallsequences":
+"delete-all-sequences":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -46,7 +35,7 @@
 	"lastfocus" : "dummy"
   },
 
-"deletealltracks":
+"delete-all-tracks":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -70,7 +59,7 @@
 	"lastfocus" : "pgm"
   },
 
-"deletefolder":
+"delete-folder":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -82,7 +71,7 @@
 	"lastfocus" : "dummy"
   },
 
-"deletefile":
+"delete-file":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -142,7 +131,7 @@
 	"lastfocus" : "dummy"
   },
   
-      "deletesound":
+      "delete-sound":
   {
     "labels" : [ "Snd:" ],
     "x" : [ 73 ],
@@ -166,7 +155,7 @@
 	"lastfocus" : "dummy"
   },
 
-   "convertsound":
+   "convert-sound":
   {
     "labels" : [ "Convert:" ],
     "x" : [ 79 ],
@@ -178,7 +167,7 @@
 	"lastfocus" : "convert"
   },
   
-   "monotostereo":
+   "mono-to-stereo":
   {
     "labels" : [ "L source:", "R source:", "New ST name:" ],
     "x" : [ 85, 85, 67 ],
@@ -213,7 +202,7 @@
 	"lastfocus" : "newfs"
   },
   
-  "bpmmatch":
+  "bpm-match":
   {
     "labels" : [ "Beat:", "Source tempo:", "New tempo:" ],
     "x" : [ 140, 92, 110],
@@ -225,7 +214,7 @@
 	"lastfocus" : "beat"
   },
   
-  "deletesong":
+  "delete-song":
   {
     "labels" : [ "Song:" ],
     "x" : [ 61 ],
@@ -237,7 +226,7 @@
 	"lastfocus" : "song"
   },
   
-  "metronomesound":
+  "metronome-sound":
   {
     "labels" : [ "Sound:", "Volume:", "Output:", "Accent:", "Normal:", ":", ":" ],
     "x" : [ 40, 52, 52, 52, 52, 156, 156  ],
@@ -249,7 +238,7 @@
 	"lastfocus" : "sound"
   },
   
-    "deletetrack":
+    "delete-track":
   {
   	"labels" : [ "Tr:" ],
   	"x" : [ 70 ],
@@ -261,7 +250,7 @@
   	"lastfocus" : "tr"
   },
   
-    "copytrack":
+    "copy-track":
   {
   	"labels" : [ "Tr:" , "Tr:" ],
   	"x" : [ 70, 70  ],
@@ -273,7 +262,7 @@
   	"lastfocus" : "tr0"
   },
   
-    "copysequence":
+    "copy-sequence":
   {
   	"labels" : [ "Sq:" , "Sq:" ],
   	"x" : [ 70, 70  ],
@@ -285,7 +274,7 @@
   	"lastfocus" : "sq0"
   },
   
-  "deletesequence":
+  "delete-sequence":
   {
     "labels" : [ "Sq:" ],
     "x" : [ 73 ],
@@ -296,7 +285,7 @@
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "sq"
   },
-  "midimonitor":
+  "midi-monitor":
   {
   }
 }
