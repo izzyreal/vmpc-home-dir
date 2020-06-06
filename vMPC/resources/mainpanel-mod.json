@@ -36,7 +36,7 @@
 	"fbtypes" : [[ 0, 0, 1, 1, 1, 1 ], [ null, null, 1, 1, 1, 1 ]],
 	"lastfocus" : "sq"
   },
-"nextseq":
+"next-seq":
   {
     "labels" : [ "Sq:", "Now:", ".", ".", " \u00C0:", "", "Timing:", "Next Sq:" ],
     "x" : [ 2, 168, 210, 228, 2, 51, 96,  2 ],
@@ -198,7 +198,7 @@
 	"lastfocus" : "pgm"
   },
   
-  "programparams":
+  "program-params":
   {
 	"labels" : [ "Pgm:", "Note:", "Attack:", "Decay:", "Dcy md:", "Freq:", "Reson:", "Tune:", "" ],
 	"x" : [ 3, 45, 3, 3, 3, 128, 128, 182, 180 ],
@@ -246,7 +246,7 @@
   "lastfocus" : "editfunction"
   },
   
-       "barcopy":
+       "bar-copy":
   {
   "labels" : [ "From  Sq:", "First bar:", "Last bar:", "To Sq:", "After bar:", "Copies:" ],
   "x" : [ 4, 22, 28, 154, 154, 172 ],
@@ -258,7 +258,7 @@
   "lastfocus" : "fromsq"
   },  
     
-  "trmove":
+  "tr-move":
   {
   "labels" : [ "Sq:", "", "" ],
   "x" : [ 2, 10, 108 ],
@@ -487,7 +487,7 @@
     "labels" : [ "Auto punch:", "", ".", ".", "-", ".", "." ],
     "x" : [ 2, 68, 86, 104, 122, 146, 164  ],
     "y" : [ 3, 23, 23, 23, 23, 23, 23 ],
- 	"parameters" : [ "autopunch", "time0", "time1", "time2", "time3", "time4", "time5" ],
+ 	"parameters" : [ "auto-punch", "time0", "time1", "time2", "time3", "time4", "time5" ],
    "tfsize" : [ 84, 18, 12, 12, 18, 12, 12 ],
    "infowidgets" : [ "inlabel", "outlabel" ],
    "infosize" : [ 2, 3 ],
@@ -503,9 +503,9 @@
     "labels" : [ "Tr:", "Transpose amount:", "Bar:", "- " ],
     "x" : [ 2, 4, 160, 208 ],
     "y" : [ 2, 13, 36, 36 ],
- 	"parameters" : [ "tr", "transposeamount", "bar0", "bar1" ],
+ 	"parameters" : [ "tr", "transpose-amount", "bar0", "bar1" ],
    "tfsize" : [ 12, 18, 18, 18 ],
-   "infowidgets" : [ "trackname" ],
+   "infowidgets" : [ "track-name" ],
    "infosize" : [ 16 ],
    "infox" : [ 37 ],
    "infoy" : [ 1 ],
@@ -514,14 +514,14 @@
 	"lastfocus" : "tr"
   },
 
-"2ndseq":
+"second-seq":
   {
     "labels" : [ "SQ:" ],
     "x" : [ 22 ],
     "y" : [ 10 ],
  	"parameters" : [ "sq" ],
    "tfsize" : [ 12 ],
-   "infowidgets" : [ "sequencename" ],
+   "infowidgets" : [ "sequence-name" ],
    "infosize" : [ 16 ],
    "infox" : [ 52 ],
    "infoy" : [ 9 ],
@@ -542,7 +542,7 @@
 	"lastfocus" : "assignnote"
   },
   
-"trackmute":
+"track-mute":
   {
     "labels" : [ "Sq:", "Now:", ".", "." ],
     "x" : [ 2, 168, 210, 228 ],
@@ -558,7 +558,7 @@
 	"lastfocus" : "sq"
   },
 
-"nextseqpad":
+"next-seq-pad":
   {
     "labels" : [ "Sq:", "Now:", ".", "." ],
     "x" : [ 2, 168, 210, 228 ],

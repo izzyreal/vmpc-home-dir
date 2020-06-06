@@ -10,11 +10,6 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "record"
 },
-"vmpc-record-jam":
-{
-	"fblabels" : [ null, null, null, "CANCEL", "START", null ],
-	"fbtypes" : [ null, null, null, 0, 1, null ]
-},
 "vmpc-recording-finished":
 {
    "labels" : [ "" ],
@@ -26,7 +21,7 @@
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "dummy"
 },
-"buffersize":
+"buffer-size":
 {
    "labels" : [ "Frames:" ],
     "x" : [ 70 ],
@@ -37,7 +32,7 @@
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "frames"
 },
-"audiomididisabled":
+"audio-midi-disabled":
 {
    "labels" : [ "dummy" ],
     "x" : [ 1 ],
@@ -246,7 +241,7 @@
   	"lastfocus" : "saveas"
   },
   
- "editmultiple":
+ "edit-multiple":
   {
   	"labels" : [ "label0", "label1" ],
   	"x" : [50, 50 ],
@@ -258,7 +253,7 @@
   	"lastfocus" : "value"
   },
   
-  "pasteevent":
+  "paste-event":
   {
   	"labels" : [ "" ],
   	"x" : [ 1 ],
@@ -282,7 +277,7 @@
   	"lastfocus" : "tcvalue"
   },
   
-    "insertevent":
+    "insert-event":
   {
   	"labels" : [ "Type:" ],
   	"x" : [ 55 ],
@@ -334,7 +329,7 @@
   	"lastfocus" : "namefornewsound"
   },
   
-    "formatdisk":
+    "format-disk":
   {
   	"labels" : [ "" ],
   	"x" : [ 53 ],
@@ -450,7 +445,7 @@
   	"lastfocus" : "source"
   },
   
-   "copyeffectsettings":
+   "copy-effect-settings":
   {
   	"labels" : [ "Pgm:", "Set:", "Pgm:", "Set:" ],
   	"x" : [ 61, 61, 61, 61 ],
@@ -462,7 +457,7 @@
   	"lastfocus" : "pgm0"
   },
   
-  "distortionringmod":
+  "distortion-ring-mod":
   {
   	"labels" : [ "Gain:", "Level:", "Freq:", "Depth:" ],
   	"x" : [ 49, 43, 145, 139 ],
@@ -486,7 +481,7 @@
   	"lastfocus" : "high0"
   },
 
-  "effectmixer":
+  "effect-mixer":
   {
   	"labels" : [ "Direct sig:", "", "Output:", "Dist/EQ:", "", "Mod/Echo:", "", "", "Reverb:", "" ],
   	"x" : [ 19, 25, 19, 121, 187, 115, 187, 211, 127, 187 ],
@@ -510,7 +505,7 @@
   	"lastfocus" : "directsig"
   },
 
-    "modulation_rotary":
+    "modulation-rotary":
   {
   	"labels" : [ "Type:", "Speed1:", "Depth:", "MIDI control #:", "Acceleration:", "Speed2:" ],
   	"x" : [ 19, 25, 31, 109, 121, 157 ],
@@ -522,7 +517,7 @@
   	"lastfocus" : "type"
   },
   
-    "modulation_fmodautopan":
+    "modulation-fmod-auto-pan":
   {
   	"labels" : [ "Type:", "Speed:", "Depth:", "Feedback:", "Speed:", "Depth:", "Mode:" ],
   	"x" : [ 19, 73, 73, 55, 159, 159, 165 ],
@@ -534,7 +529,7 @@
   	"lastfocus" : "type"
   },
   
-   "modulation_pitchshift":
+   "modulation-pitch-shift":
   {
   	"labels" : [ "Type:", "Tune:", "unknown" ],
   	"x" : [ 19, 115, 187 ],
@@ -546,7 +541,7 @@
   	"lastfocus" : "type"
   },
   
-  "modulation_pitchfeedback":
+  "modulation-pitch-feedback":
   {
   	"labels" : [ "Type:", "Tune:", "unknown", "Delay:", "", "Feedback:", "" ],
   	"x" : [ 19, 115, 187, 109, 187, 91, 187 ],
@@ -558,7 +553,7 @@
   	"lastfocus" : "type"
   },
   
-    "delayecho":
+    "delay-echo":
   {
   	"labels" : [ "Type:", "Feedback:", "Feedback delay:", "HF damping:", "L/R delay offset:" ],
   	"x" : [ 19, 139, 103, 127, 91 ],
@@ -570,7 +565,7 @@
   	"lastfocus" : "type"
   },
  
-    "delayecho_stereo":
+    "delay-echo-stereo":
   {
   	"labels" : [ "Type:", "Feedback:", "", "Feedback delay:", "", "HF damping:", "" ],
   	"x" : [ 19, 97, 199, 61, 193, 85, 193 ],
@@ -594,7 +589,7 @@
   	"lastfocus" : "type"
   },
 
-    "reverb_gated":
+    "reverb-gated":
   {
   	"labels" : [ "Type:", "Predelay:", "Time:", "Diffuse:" ],
   	"x" : [ 19, 43, 67, 49 ],
@@ -606,7 +601,7 @@
   	"lastfocus" : "type"
   },
   
-    "soundmemory":
+    "sound-memory":
   {
   	"labels" : [ "" ],
   	"x" : [ 1 ],
@@ -717,7 +712,7 @@
   	"lastfocus" : "edit"
   },
   
-  "edittimestretch":
+  "edit-timestretch":
   {
   	"labels" : [ "Edit:", "New name:", "Ratio:", "Preset:", "Adjust:" ],
   	"x" : [ 19, 19, 37, 31, 168 ],
@@ -730,7 +725,7 @@
   },
 
 
-  "songname":
+  "song-name":
   {
     "labels" : [ "Song name:", "Default name:" ],
     "x" : [ 56, 38 ],
@@ -742,7 +737,7 @@
 	"lastfocus" : "songname"
   },
   
-  "ignoretempochange":
+  "ignore-tempo-change":
   {
     "labels" : [ "in sequence:" ],
     "x" : [ 40 ],
@@ -754,7 +749,7 @@
 	"lastfocus" : "insequence"
   },
   
-  "loopsongwindow":
+  "loop-song-window":
   {
     "labels" : [ "First step:", "Last step:", "Number of steps:" ],
     "x" : [ 90, 96, 60 ],
@@ -766,7 +761,7 @@
 	"lastfocus" : "firststep"
   },
   
-  "loopbarswindow":
+  "loop-bars-window":
   {
     "labels" : [ "First bar:", "Last bar:", "Number of bars:" ],
     "x" : [ 90, 96, 60 ],
@@ -778,7 +773,7 @@
 	"lastfocus" : "firstbar"
   },
   
-  "convertsongtoseq":
+  "convert-song-to-seq":
   {
     "labels" : [ "From song:", "To sequence:", "Track status:" ],
     "x" : [ 44, 32, 26 ],
@@ -790,7 +785,7 @@
 	"lastfocus" : "fromsong"
   },
   
-  "timedisplay":
+  "time-display":
   {
     "labels" : [ "Display style:", "Start time:", "h", "m", "s", "f", "Frame rate:" ],
     "x" : [ 32, 50, 128, 146, 164, 182, 50 ],
@@ -802,7 +797,7 @@
 	"lastfocus" : "displaystyle"
   },
   
-  "transposepermanent":
+  "transpose-permanent":
   {
   	"labels" : [ "" ],
   	"x" : [ 1 ],
@@ -833,7 +828,7 @@
   	"y" : [ 13, 23, 23, 23, 23, 23, 23, 33, 33, 43, 43 ],
   	"tfsize" : [ 12, 18, 12, 12, 18, 12, 12, 66, 72, 48, 48 ],
   	"parameters" : [ "track", "time0", "time1", "time2", "time3", "time4", "time5", "erase", "type", "notes0", "notes1" ],
-	"infowidgets" : [ "trackname" ],
+	"infowidgets" : [ "track-name" ],
 	"infox" : [ 74 ],
 	"infoy" : [ 13 ],
 	"infosize" : [ 17 ],
@@ -842,7 +837,7 @@
   	"lastfocus" : "track"
   },
   
-  "tempochange":
+  "tempo-change":
   {
   	"labels" : [ "Tempo change:", "Initial \u00C0:",
   	"", ":", ".", ".", "%:", "\u00C0=",
@@ -854,7 +849,7 @@
   	23, 41, 65, 83, 106, 152 ],
   	"y" : [ 11, 11, 22, 22, 22, 22, 22, 22, 30, 30, 30, 30, 30, 30, 38, 38, 38, 38, 38, 38 ],
   	"tfsize" : [ 18, 28, 18, 18, 12, 12, 30, 28, 18, 18, 12, 12, 30, 28, 18, 18, 12, 12, 30, 28 ],
-  	"parameters" : [ "tempochange", "initialtempo", "a0", "b0", "c0", "d0", "e0", "f0",
+  	"parameters" : [ "tempo-change", "initial-tempo", "a0", "b0", "c0", "d0", "e0", "f0",
   	"a1", "b1", "c1", "d1", "e1", "f1",
   	"a2", "b2", "c2", "d2", "e2", "f2"  ],
   	"fblabels" : [ null, "DELETE", "NOW", "CLOSE", "INSERT", null ],
@@ -862,7 +857,7 @@
   	"lastfocus" : "tempochange"
   }, 
 
-  "timingcorrect":
+  "timing-correct":
   {
   	"labels" : [ "Note value:", "Swing%:", "Shift timing:", "amount:", "Time:", ".", ".", "-", ".", ".", "Notes:", "-" ],
   	"x" : [ 26, 169, 26, 169, 32, 80, 98, 116, 140, 158, 26, 110 ],
@@ -874,7 +869,7 @@
   	"lastfocus" : "notevalue"
   },
   
-  "changetsig":
+  "change-tsig":
   {
   	"labels" : [ "Bar:", "- ", "New Tsig:" ],
   	"x" : [ 51, 99, 152 ],
@@ -886,7 +881,7 @@
   	"lastfocus" : "notevalue"
   },
   
-  "changebars":
+  "change-bars":
   {
   	"labels" : [ "After bar:", "First bar:", "Number of bars:", "Last bar:" ],
   	"x" : [ 54, 143, 24, 149 ],
@@ -898,7 +893,7 @@
   	"lastfocus" : "afterbar"
   }, 
 
-  "changebars2":
+  "change-bars-2":
   {
   	"labels" : [ "New Bars:" ],
   	"x" : [ 158 ],
@@ -915,7 +910,7 @@
   },
   
 
-  "countmetronome":
+  "count-metronome":
   {
   	"labels" : [ "Count IN:", "In play:", "Rate:", "In rec :", "Wait for key:" ],
   	"x" : [ 40, 153, 64, 153, 28 ],
@@ -927,7 +922,7 @@
   	"lastfocus" : "countin"
   }, 
 
-  "eraseallofftracks":
+  "erase-all-off-tracks":
   {
   	"labels" : [ "" ],
   	"x" : [ 1 ],
@@ -939,7 +934,7 @@
   	"lastfocus" : "dummy"
   },
 
-    "transmitprogramchanges":  
+    "transmit-program-changes":  
   {
   	"labels" : [ "in this track:" ],
   	"x" : [ 48 ],
@@ -951,7 +946,7 @@
   	"lastfocus" : "inthistrack"
   },
   
-  "multirecordingsetup":
+  "multi-recording-setup":
   {
   	"labels" : [ "", "", "", "", "", "", "", "", "" ],
   	"x" : [ 24, 63, 201, 24, 63, 201, 24, 63, 201 ],
@@ -963,7 +958,7 @@
   	"lastfocus" : "a0"
   },
   
-  "midiinput":
+  "midi-input":
   {
   	"labels" : [ "Receive ch:", "Seq:", "Duration:", "MIDI filter:", "Type:", "Pass?:" ],
   	"x" : [ 26, 182, 127, 26, 26, 169 ],
@@ -975,7 +970,7 @@
   	"lastfocus" : "receivech"
   },
   
-  "midiinputmonitor":
+  "midi-input-monitor":
   {
   	"labels" : [ "" ],
   	"x" : [ 1 ],
@@ -991,7 +986,7 @@
   	"lastfocus" : "dummy"
   },
 
-  "midioutput":
+  "midi-output":
   {
   	"labels" : [ "Soft thru:", "Device name:", "-" ],
   	"x" : [ 44, 32, 122 ],
@@ -1007,7 +1002,7 @@
   	"lastfocus" : "softthru"
   },
 
-  "midioutputmonitor":
+  "midi-output-monitor":
   {
   	"labels" : [ "" ],
   	"x" : [ 1 ],
@@ -1023,7 +1018,7 @@
   	"lastfocus" : "dummy"
   },
 
-  "editvelocity":
+  "edit-velocity":
   {
   	"labels" : [ "Edit type:", "Value:", "Time:", ".", ".", "-", ".", ".", "Notes:", "-" ],
   	"x" : [ 26, 169, 32, 80, 98, 115, 139, 157, 26, 114 ],
@@ -1035,7 +1030,7 @@
   	"lastfocus" : "edittype"
   },
 
-  "assign16levels":
+  "assign-16-levels":
   {
   	"labels" : [ "Note :", "Param:", "Type:", "Original key pad:" ],
   	"x" : [ 37, 37, 37, 110 ],
