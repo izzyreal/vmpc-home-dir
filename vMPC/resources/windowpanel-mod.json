@@ -1,17 +1,21 @@
 {
-"directtodiskrecorder":
+"vmpc-direct-to-disk-recorder":
 {
     "labels" : [ "Record:", "Sq:", "Song:", "Time:", ".", ".", "-", ".", ".", "Output folder:", "Split L/R:", "Offline:", "Rate:" ],
     "x" : [ 22, 22, 22, 22, 70, 88, 106, 130, 148, 22, 150, 162, 174 ],
     "y" : [ 12, 22, 22, 32, 32, 32, 32, 32, 32, 42, 12, 22, 32 ],
     "tfsize" : [ 72, 114, 66, 18, 12, 12, 18, 12, 12, 48, 18, 18, 24 ],
-	"parameters" : [ "record", "sq", "song", "time0", "time1", "time2", "time3", "time4", "time5", "outputfolder", "splitlr", "offline", "rate" ],
+	"parameters" : [ "record", "sq", "song", "time0", "time1", "time2", "time3", "time4", "time5", "output-folder", "split-lr", "offline", "rate" ],
 	"fblabels" : [ null, null, null, "CANCEL", "RECORD", null ],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "record"
 },
-
-"recordingfinished":
+"vmpc-record-jam":
+{
+	"fblabels" : [ null, null, null, "CANCEL", "START", null ],
+	"fbtypes" : [ null, null, null, 0, 1, null ]
+},
+"vmpc-recording-finished":
 {
    "labels" : [ "" ],
     "x" : [ 1 ],
@@ -22,7 +26,6 @@
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "dummy"
 },
-
 "buffersize":
 {
    "labels" : [ "Frames:" ],
@@ -34,7 +37,6 @@
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "frames"
 },
-
 "audiomididisabled":
 {
    "labels" : [ "dummy" ],
