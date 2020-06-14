@@ -1,5 +1,5 @@
 {
-    "file-already-exists":
+ "file-already-exists":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -10,8 +10,7 @@
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-
-"recordjam":
+ "vmpc-record-jam":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -21,9 +20,8 @@
 	"fblabels" : [ null, null, null, "CANCEL", "OK", null],
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "dummy"
-  },
-  
-"delete-all-sequences":
+  },  
+ "delete-all-sequences":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -34,8 +32,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-
-"delete-all-tracks":
+ "delete-all-tracks":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -46,8 +43,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-  
-"delete-program":
+ "delete-program":
   {
     "labels" : [ "Pgm:" ],
     "x" : [ 73 ],
@@ -58,8 +54,7 @@
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "pgm"
   },
-
-"delete-folder":
+ "delete-folder":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -70,8 +65,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-
-"delete-file":
+ "delete-file":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -82,8 +76,7 @@
 	"fbtypes" : [ null, 1, null, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-
-"create-new-program":
+ "create-new-program":
   {
     "labels" : [ "New name:", "MIDI program change:" ],
     "x" : [ 73, 73],
@@ -94,8 +87,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "newname"
   },
-
-"copy-program":
+ "copy-program":
   {
     "labels" : [ "Pgm:", "Pgm:" ],
     "x" : [ 73, 73],
@@ -106,8 +98,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "pgm0"
   },
-
-"copy-sound":
+ "copy-sound":
   {
     "labels" : [ "Snd:", "New Name:" ],
     "x" : [ 91, 61 ],
@@ -118,8 +109,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "snd"
   },
-
-"delete-all-programs":
+ "delete-all-programs":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -130,8 +120,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-  
-      "delete-sound":
+ "delete-sound":
   {
     "labels" : [ "Snd:" ],
     "x" : [ 73 ],
@@ -142,8 +131,7 @@
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "snd"
   },
-  
-    "delete-all-sound":
+ "delete-all-sound":
   {
     "labels" : [ "" ],
     "x" : [ 1 ],
@@ -154,8 +142,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "dummy"
   },
-
-   "convert-sound":
+ "convert-sound":
   {
     "labels" : [ "Convert:" ],
     "x" : [ 79 ],
@@ -166,8 +153,7 @@
 	"fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]],
 	"lastfocus" : "convert"
   },
-  
-   "mono-to-stereo":
+ "mono-to-stereo":
   {
     "labels" : [ "L source:", "R source:", "New ST name:" ],
     "x" : [ 85, 85, 67 ],
@@ -178,8 +164,7 @@
 	"fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]],
 	"lastfocus" : "lsource"
   },
-  
-   "stereo-to-mono":
+ "stereo-to-mono":
   {
     "labels" : [ "Stereo source:", "New L name:", "New R name:" ],
     "x" : [ 55, 73, 73 ],
@@ -190,7 +175,7 @@
 	"fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]],
 	"lastfocus" : "stereosource"
   },
-    "resample":
+ "resample":
   {
     "labels" : [ "New Fs:", "Hz  Quality:", "New Bit:", "New name:" ],
     "x" : [ 67, 139, 61, 55 ],
@@ -201,8 +186,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "newfs"
   },
-  
-  "bpm-match":
+ "bpm-match":
   {
     "labels" : [ "Beat:", "Source tempo:", "New tempo:" ],
     "x" : [ 140, 92, 110],
@@ -213,8 +197,7 @@
 	"fbtypes" : [ null, null, null, 0, 1, null ],
 	"lastfocus" : "beat"
   },
-  
-  "delete-song":
+ "delete-song":
   {
     "labels" : [ "Song:" ],
     "x" : [ 61 ],
@@ -225,8 +208,7 @@
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "song"
   },
-  
-  "metronome-sound":
+ "metronome-sound":
   {
     "labels" : [ "Sound:", "Volume:", "Output:", "Accent:", "Normal:", ":", ":" ],
     "x" : [ 40, 52, 52, 52, 52, 156, 156  ],
@@ -237,8 +219,7 @@
 	"fbtypes" : [ null, null, null, 0, null, null ],
 	"lastfocus" : "sound"
   },
-  
-    "delete-track":
+ "delete-track":
   {
   	"labels" : [ "Tr:" ],
   	"x" : [ 70 ],
@@ -249,8 +230,7 @@
   	"fbtypes" : [ null, null, 1, 0, 1, null ],
   	"lastfocus" : "tr"
   },
-  
-    "copy-track":
+ "copy-track":
   {
   	"labels" : [ "Tr:" , "Tr:" ],
   	"x" : [ 70, 70  ],
@@ -261,8 +241,7 @@
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "tr0"
   },
-  
-    "copy-sequence":
+ "copy-sequence":
   {
   	"labels" : [ "Sq:" , "Sq:" ],
   	"x" : [ 70, 70  ],
@@ -273,8 +252,7 @@
   	"fbtypes" : [ null, null, 1, 0, 1, null ],
   	"lastfocus" : "sq0"
   },
-  
-  "delete-sequence":
+ "delete-sequence":
   {
     "labels" : [ "Sq:" ],
     "x" : [ 73 ],
@@ -285,7 +263,7 @@
 	"fbtypes" : [ null, null, 1, 0, 1, null ],
 	"lastfocus" : "sq"
   },
-  "midi-monitor":
+ "midi-monitor":
   {
   }
 }

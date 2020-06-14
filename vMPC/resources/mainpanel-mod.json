@@ -29,7 +29,7 @@
  	"parameters" : [ "sq", "now0", "now1", "now2", "tempo", "temposource", "timing", "tsig", "count", "loop", "bars", "tr", "on", "pgm", "recordingmode", "tracktype", "devicenumber", "velo", "nextsq" ],
    "tfsize" : [ 114, 18, 12, 12, 27, 30, 42, 30, 18, 18, 18, 114, 18, 18, 6, 30, 18, 18, 12 ],
    "infowidgets" : [ "devicename" ],
-   "infosize" : [ 16 ],
+   "infosize" : [ 96 ],
    "infox" : [ 80 ],
    "infoy" : [ 39 ],
 	"fblabels" : [[ "STEP", "EDIT", "TrMUTE", "SOLO", "Tr -", "Tr +" ], [ null, null, "TrMUTE", "SOLO", "Tr -", "Tr +" ]],
@@ -59,44 +59,24 @@
 	"lastfocus" : "dummy"
   	},
 	
-"step":
+"step-editor":
   {
     "labels" : [
-    "View:", "", "-", "", "Now:", ".", ".",
-    ">N: ", "", ":", "D:", "V:",
-    ">N: ", "", ":", "D:", "V:",
-    ">N: ", "", ":", "D:", "V:",
-    ">N: ", "", ":", "D:", "V:"
+    "View:", "", "-", "", "Now:", ".", "."
 	 ],
 	 
 	"parameters" : [
-	"view", "fromnote", "tonote", "controlnumber", "now0", "now1", "now2",
-	"a0", "b0", "c0", "d0", "e0",
-	"a1", "b1", "c1", "d1", "e1",
-	"a2", "b2", "c2", "d2", "e2",
-	"a3", "b3", "c3", "d3", "e3"
+	"view", "fromnote", "tonote", "controlnumber", "now0", "now1", "now2"
 	 ],
 
     "x" : [
-    1, 67, 110, 66, 168, 210, 228,
-    0, 66, 85, 120, 162,
-    0, 66, 85, 120, 162,
-    0, 66, 85, 120, 162,
-    0, 66, 85, 120, 162
+    1, 67, 110, 66, 168, 210, 228
        ],
     "y" : [
-    1, 1, 1, 1, 1, 1, 1,
-     12, 12, 12, 12, 12,
-   	21, 21, 21, 21, 21,
-   	30, 30, 30, 30, 30,
-   	39, 39, 39, 39, 39    
+    1, 1, 1, 1, 1, 1, 1
 	],
    "tfsize" : [
-   36, 48, 48, 96, 18, 12, 12,
-     36, 18, 24, 24, 18,
-   36, 18, 24, 24, 18,
-   36, 18, 24, 24, 18,
-   36, 18, 24, 24, 18 
+   36, 48, 48, 96, 18, 12, 12
     ],
 	"fblabels" : [[ "TC", "COPY", "DELETE", "INSERT", "PASTE", "PLAY" ], [ "TC", "COPY", "DELETE", "EDIT", null, "CANCEL" ]],
 	"fbtypes" : [[ 1, 1, 1, 1, 1, 1 ], [ 1, 1, 1, 1, null, 1 ]],
@@ -111,7 +91,7 @@
 	"parameters" : ["view", "directory", "file" ],
     "tfsize" : [ 54, 48, 120 ],
     "infowidgets" : ["size", "freesnd", "freeseq" ],
-	"infosize" : [ 7, 7, 7 ],  
+	"infosize" : [ 42, 42, 42 ],  
     "infox" : [ 206, 206, 206 ],
     "infoy" : [ 8, 29, 39 ],
  	"fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", "PLAY", "DO IT" ],
@@ -127,7 +107,7 @@
  	"parameters" : ["type", "file", "device" ],
     "tfsize" : [ 162, 120, 36 ],
     "infowidgets" : ["size", "free" ],
-	"infosize" : [ 7, 7 ],  
+	"infosize" : [ 42, 42 ],  
     "infox" : [ 206, 208 ],
     "infoy" : [ 8, 38 ],
 	"fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", null, "DO IT" ],
@@ -190,7 +170,7 @@
 	"parameters" : [ "pgm", "pad", "pad-note", "pad-assign", "note", "snd", "mode", "velocity-range-lower", "velocity-range-upper", "optional-note-a", "optional-note-b" ],
 	"tfsize" : [ 114, 18, 12, 42, 12, 96, 36, 18, 18, 36, 36 ],
 	"infowidgets" : [ "issoundstereo" ],
-	"infosize" : [ 4 ],
+	"infosize" : [ 24 ],
 	"infox" : [ 177 ],
 	"infoy" : [ 21 ],
 	"fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", "AUTO", "PLAY" ],
@@ -268,7 +248,7 @@
   "infowidgets" : [ "tr0info", "tr1info", "selecttrack", "tomove" ],
   "infox" : [ 108, 108, 22, 22 ],
   "infoy" : [ 16, 36, 20, 30 ],
-  "infosize" : [ 20, 20, 12, 8 ],
+  "infosize" : [ 120, 120, 72, 48 ],
   "fblabels" : [[ "EVENTS", "BAR", "TrMOVE", "USER", null, null], [ "EVENTS", "BAR", "TrMOVE", "USER", null, "SELECT" ], [ null, null, null, null, "CANCEL", "INSERT" ]],
   "fbtypes" : [[ 0, 0, 2, 0, null, null ], [ 0, 0, 2, 0, null, 1 ], [ null, null, null, null, 1, 0 ]],
   "lastfocus" : "sq"
@@ -282,7 +262,7 @@
   "parameters" : [ "tempo", "loop", "tsig", "bars", "pgm", "recordingmode", "tracktype", "device", "velo" ],
   "tfsize" : [ 30, 18, 30, 18, 18, 6, 30, 18, 18 ],
    "infowidgets" : [ "devicename" ],
-   "infosize" : [ 16 ],
+   "infosize" : [ 96 ],
    "infox" : [ 80 ],
    "infoy" : [ 39 ],
   "fblabels" : [ "EVENTS", "BAR", "TrMOVE", "USER", null, null],
@@ -312,7 +292,7 @@
   "infowidgets" : [ "value" ],
   "infox" : [ 23 ],
   "infoy" : [ 35 ],
-  "infosize" : [ 3 ],
+  "infosize" : [ 18 ],
   "fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", "DO IT", null ],
   "fbtypes" : [ 0, 0, 0, 2, 1, null ],
   "lastfocus" : "dummy"
@@ -412,7 +392,7 @@
   "infowidgets" : [ "vuleft", "vuright" ],
   "infox" : [ 39, 39 ],
   "infoy" : [ 29, 38 ],
-  "infosize" : [ 34, 34 ],
+  "infosize" : [ 204, 204 ],
   "fblabels" : [ null, null, null, null, null, null ],
   "fbtypes" : [ null, null, null, null, null, null ],
   "lastfocus" : "input"
@@ -464,7 +444,7 @@
   "infowidgets" : [ "sample-tempo", "new-tempo" ],
   "infox" : [ 135, 153 ],
   "infoy" : [ 26, 35 ],
-  "infosize" : [ 18, 15 ],
+  "infosize" : [ 108, 90 ],
   "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", null, "PLAY X" ],
   "fbtypes" : [ 0, 0, 0, 2, null, 1],
   "lastfocus" : "snd"
@@ -490,7 +470,7 @@
  	"parameters" : [ "auto-punch", "time0", "time1", "time2", "time3", "time4", "time5" ],
    "tfsize" : [ 84, 18, 12, 12, 18, 12, 12 ],
    "infowidgets" : [ "inlabel", "outlabel" ],
-   "infosize" : [ 2, 3 ],
+   "infosize" : [ 12, 18 ],
    "infox" : [ 81, 139 ],
    "infoy" : [ 14, 14 ],
 	"fblabels" : [ "PUNCH", "TRANS", "2ndSEQ", null, null, "TurnON" ],
@@ -506,7 +486,7 @@
  	"parameters" : [ "tr", "transpose-amount", "bar0", "bar1" ],
    "tfsize" : [ 12, 18, 18, 18 ],
    "infowidgets" : [ "track-name" ],
-   "infosize" : [ 16 ],
+   "infosize" : [ 96 ],
    "infox" : [ 37 ],
    "infoy" : [ 1 ],
 	"fblabels" : [ "PUNCH", "TRANS", "2ndSEQ", null, null, "FIX" ],
@@ -522,7 +502,7 @@
  	"parameters" : [ "sq" ],
    "tfsize" : [ 12 ],
    "infowidgets" : [ "sequence-name" ],
-   "infosize" : [ 16 ],
+   "infosize" : [ 96 ],
    "infox" : [ 52 ],
    "infoy" : [ 9 ],
 	"fblabels" : [ "PUNCH", "TRANS", "2ndSEQ", null, null, "TurnON" ],
@@ -550,7 +530,7 @@
  	"parameters" : [ "sq", "now0", "now1", "now2" ],
    "tfsize" : [ 114, 18, 12, 12 ],
    "infowidgets" : [ "tracknumbers", "bank", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ],
-   "infosize" : [ 5, 1, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 ],
+   "infosize" : [ 30, 6, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48 ],
    "infox" : [ 6, 18, 39, 91, 143, 195, 39, 91, 143, 195, 39, 91, 143, 195, 39, 91, 143, 195 ],
    "infoy" : [ 20, 36, 39, 39, 39, 39, 30, 30, 30, 30, 21, 21, 21, 21, 12, 12, 12, 12 ],
 	"fblabels" : [ null, null, null, null, null, "SOLO" ],
@@ -566,7 +546,7 @@
  	"parameters" : [ "sq", "now0", "now1", "now2" ],
    "tfsize" : [ 114, 18, 12, 12 ],
    "infowidgets" : [ "13", "14", "15", "16", "9", "10", "11", "12", "5", "6","7", "8", "1", "2", "3", "4", "seqnumbers", "bank", "nextsq" ],
-   "infosize" : [ 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 1, 19 ],
+   "infosize" : [ 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 30, 6, 114 ],
    "infox" : [ 39, 91, 143, 195, 39, 91, 143, 195, 39, 91, 143, 195, 39, 91, 143, 195, 6, 18, 2 ],
    "infoy" : [ 12, 12, 12, 12, 21, 21, 21, 21, 30, 30, 30, 30, 39, 39, 39, 39, 20, 36, 50 ],
 	"fblabels" : [ null, null, null, "SUDDEN", "CLEAR", "CLOSE" ],
