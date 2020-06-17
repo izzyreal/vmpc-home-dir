@@ -256,8 +256,8 @@
   "paste-event":
   {
   	"labels" : [ "" ],
-  	"x" : [ 1 ],
-  	"y" : [ 1 ],
+  	"x" : [ 50 ],
+  	"y" : [ 50 ],
   	"tfsize" : [ 0 ],
   	"parameters" : [ "dummy" ],
   	"fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
@@ -916,7 +916,7 @@
   	"x" : [ 40, 153, 64, 153, 28 ],
   	"y" : [ 14, 14,  24, 24, 42 ],
   	"tfsize" : [ 48, 18, 42, 18, 18 ],
-  	"parameters" : [ "countin", "inplay", "rate", "inrec", "waitforkey" ],
+  	"parameters" : [ "count-in", "in-play", "rate", "in-rec", "wait-for-key" ],
   	"fblabels" : [ null, null, null, "CLOSE", "SOUND", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "countin"
