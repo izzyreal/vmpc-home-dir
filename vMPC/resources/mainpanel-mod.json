@@ -26,7 +26,27 @@
     "labels" : [ "Sq:", "Now:", ".", ".", "  :", "", "Timing:", "Tsig:", "Count:", "Loop:", "Bars:", "Tr:", "ON:", "Pgm:", "", ":", ":", "Velo%:", "Next Sq:" ],
     "x" : [ 2, 168, 210, 228, 2, 48, 96, 185, 8, 108, 185, 2, 137, 190, 8, 14, 50, 178, 4 ],
     "y" : [ 2, 1, 1, 1, 12, 12, 12, 12, 21, 21, 21, 31, 31, 31, 40, 40, 40, 40, 51 ],
- 	"parameters" : [ "sq", "now0", "now1", "now2", "tempo", "temposource", "timing", "tsig", "count", "loop", "bars", "tr", "on", "pgm", "recordingmode", "tracktype", "devicenumber", "velo", "nextsq" ],
+ 	"parameters" : [
+	"sq", [ "_", "now0", "_", "tempo" ],
+	"now0", [ "sq", "now1", "_", "tsig" ],
+	"now1", [ "now0", "now2", "_", "tsig" ],
+	"now2", [ "now1", "_", "_", "tsig" ],
+	"tempo", [ "_", "temposource", "sq", "count" ],
+	"temposource", [ "tempo", "timing", "sq", "count" ],
+	"timing", [ "temposource", "tsig", "now0", "loop" ],
+	"tsig", [ "timing", "_", "now2", "bars" ],
+	"count", [ "_", "loop", "tempo", "tr" ],
+	"loop", [ "count", "bars", "timing", "on" ],
+	"bars", [ "loop", "_", "tsig", "pgm" ],
+	"tr", [ "_", "on", "count", "tracktype" ],
+	"on", [ "tr", "pgm", "loop", "_" ],
+	"pgm", [ "on", "_", "bars", "velo" ],
+	"recordingmode", [ "_", "tracktype", "tr", "nextsq" ],
+	"tracktype", [ "recordingmode", "devicenumber", "tr", "nextsq" ],
+	"devicenumber", [ "tracktype", "velo", "tr", "nextsq" ],
+	"velo", [ "devicenumber", "_", "pgm", "_" ],
+	"nextsq", [ "_", "_", "tracktype", "_" ] 
+	],
    "tfsize" : [ 114, 18, 12, 12, 27, 30, 42, 30, 18, 18, 18, 114, 18, 18, 6, 30, 18, 18, 12 ],
    "infowidgets" : [ "devicename" ],
    "infosize" : [ 96 ],
@@ -95,7 +115,7 @@
     "infox" : [ 206, 206, 206 ],
     "infoy" : [ 8, 29, 39 ],
  	"fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", "PLAY", "DO IT" ],
-	"fbtypes" : [ 2, 0, 0, 0, null, 1 ],
+	"fbtypes" : [ 2, 0, 0, 0, 1, 1 ],
 	"lastfocus" : "view"
   },
   
@@ -151,17 +171,6 @@
   "lastfocus" : "stereomixsource"
   },
   
-  "fx-edit":
-  {
-  "labels" : [ "Drum:", "Pgm:", "Edit:", "", "", "", "", "", "", "Input:" ],
-  "x" : [ 2, 110, 2, 41, 77, 116, 149, 188, 224, 3 ],
-  "y" : [ 2, 2, 12, 26, 26, 26, 26, 26, 26, 26 ],
-  "parameters" : [ "drum", "pgm", "edit", "dist", "filt", "mod", "echo", "rev", "mix", "input" ],
-  "tfsize" : [ 6, 114, 54, 12, 12, 12, 12, 12, 12, 12 ],
-  "fblabels" : [ "DRUM 1", "DRUM 2", "DRUM 3", "DRUM 4", "SETUP", "ON/OFF" ],
-  "fbtypes" : [ 0, 1, 1, 1, 0, 1 ],
-  "lastfocus" : "drum"
-  },
   "program-assign":
   {
 	"labels" : [ "Pgm:", "Pad:", "=Note:", "Pad assign:", "Note:", "=Snd:", "Mode:", "If over:", "If over:", "Also play note:", "Also play note:" ],
@@ -298,7 +307,7 @@
   "lastfocus" : "dummy"
   },
   
-    "fx-edit":
+  "fx-edit":
   {
   "labels" : [ "Drum:", "Pgm:", "Edit:", "", "", "", "", "", "", "Input:" ],
   "x" : [ 2, 110, 2, 41, 77, 116, 149, 188, 224, 3 ],
