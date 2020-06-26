@@ -121,7 +121,7 @@
 	"infoy" :  [ 10, 10, 18, 26, 34, 42, 10, 10, 18, 18, 26, 26, 34, 34, 42, 42 ],
 	"infosize" : [ 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 ],  
 	"fblabels" : [ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", "PLAY" ],
-	"fbtypes" : [ null, 1, 1, 0, 1, null ],
+	"fbtypes" : [ null, 1, 1, 0, 1, 1 ],
 	"lastfocus" : "file1"
   },
   
@@ -766,7 +766,11 @@
     "labels" : [ "First bar:", "Last bar:", "Number of bars:" ],
     "x" : [ 90, 96, 60 ],
     "y" : [ 11, 33, 42 ],
- 	"parameters" : [ "firstbar", "lastbar", "numberofbars" ],
+ 	"parameters" : [
+	"firstbar", [ "_", "_", "_", "lastbar" ],
+	"lastbar", [ "_", "_", "firstbar", "numberofbars" ],
+	"numberofbars", [ "_", "_", "lastbar", "_" ]
+	],
    "tfsize" : [ 18, 18, 18 ],
 	"fblabels" : [ null, null, null, "CLOSE", null, null ],
 	"fbtypes" : [ null, null, null, 0, null, null ],

@@ -142,8 +142,8 @@
   "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
-  "fblabels" : [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
-  "fbtypes" : [ 1, 1, 1, 1, null, null ],
+  "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ]],
+  "fbtypes" : [[ 2, 1, 1, 1, null, null ], [ 1, 2, 1, 1, null, null ], [ 1, 1, 2, 1, null, null ], [ 1, 1, 1, 2, null, null ]],
   "lastfocus" : "dummy"
   },
   
@@ -154,8 +154,8 @@
   "y" : [ 1 ],
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
-  "fblabels" : [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
-  "fbtypes" : [ 1, 1, 1, 1, null, null ],
+  "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ]],
+  "fbtypes" : [[ 2, 1, 1, 1, null, null ], [ 1, 2, 1, 1, null, null ], [ 1, 1, 2, 1, null, null ], [ 1, 1, 1, 2, null, null ]],
   "lastfocus" : "dummy"
   },
   
@@ -223,26 +223,26 @@
   "lastfocus" : "primarydevice"
   },
   
-     "edit":
+     "events":
   {
   "labels" : [ "Edit:", "", ".", ".", "-", ".", ".", "", "", "-", "From sq:", "Tr:", "To sq:", "Tr:", "Mode:", "Start:", ".", ".", "Copies:" ],
   "x" : [ 2, 8, 26, 44, 62, 86, 104, 8, 8, 56, 132, 204, 144, 204, 150, 144, 198, 216, 138 ],
   "y" : [ 2, 21, 21, 21, 21, 21, 21, 39, 39, 39, 2, 2, 12, 12, 21, 30, 30, 30, 39 ],
   "parameters" : [ "editfunction", "time0", "time1", "time2", "time3", "time4", "time5", "drumnote", "midinote0", "midinote1", "fromsq", "tr0", "tosq", "tr1", "mode", "start0", "start1", "start2", "copies" ],
-  "tfsize" : [ 54, 18, 12, 12, 18, 12, 12, 48, 42, 42, 12, 12, 12, 12, 42, 18, 12, 12, 12 ],
-  "fblabels" : [ "EVENTS", "BAR", "TrMOVE", "USER", null, "DO IT"],
+  "tfsize" : [ 55, 18, 12, 12, 18, 12, 12, 48, 42, 42, 12, 12, 12, 12, 42, 18, 12, 12, 12 ],
+  "fblabels" : [ "EVENTS", "BARS", "TrMOVE", "USER", null, "DO IT"],
   "fbtypes" : [ 2, 0, 0, 0, null, 1 ],
   "lastfocus" : "editfunction"
   },
   
-       "bar-copy":
+  "bars":
   {
   "labels" : [ "From  Sq:", "First bar:", "Last bar:", "To Sq:", "After bar:", "Copies:" ],
   "x" : [ 4, 22, 28, 154, 154, 172 ],
   "y" : [ 3, 14, 36, 3, 14, 36 ],
   "parameters" : [ "fromsq", "firstbar", "lastbar", "tosq", "afterbar", "copies" ],
   "tfsize" : [ 12, 18, 18, 12, 18, 12 ],
-  "fblabels" : [ "EVENTS", "BAR", "TrMOVE", "USER", null, "DO IT"],
+  "fblabels" : [ "EVENTS", "BARS", "TrMOVE", "USER", null, "DO IT"],
   "fbtypes" : [ 0, 2, 0, 0, null, 1 ],
   "lastfocus" : "fromsq"
   },  
@@ -253,12 +253,12 @@
   "x" : [ 2, 10, 108 ],
   "y" : [ 2, 26, 26 ],
   "parameters" : [ "sq", "tr0", "tr1" ],
-  "tfsize" : [ 108, 120, 120 ],
+  "tfsize" : [ 117, 120, 120 ],
   "infowidgets" : [ "tr0info", "tr1info", "selecttrack", "tomove" ],
   "infox" : [ 108, 108, 22, 22 ],
   "infoy" : [ 16, 36, 20, 30 ],
   "infosize" : [ 120, 120, 72, 48 ],
-  "fblabels" : [[ "EVENTS", "BAR", "TrMOVE", "USER", null, null], [ "EVENTS", "BAR", "TrMOVE", "USER", null, "SELECT" ], [ null, null, null, null, "CANCEL", "INSERT" ]],
+  "fblabels" : [[ "EVENTS", "BARS", "TrMOVE", "USER", null, null], [ "EVENTS", "BARS", "TrMOVE", "USER", null, "SELECT" ], [ null, null, null, null, "CANCEL", "INSERT" ]],
   "fbtypes" : [[ 0, 0, 2, 0, null, null ], [ 0, 0, 2, 0, null, 1 ], [ null, null, null, null, 1, 0 ]],
   "lastfocus" : "sq"
   },
