@@ -155,7 +155,7 @@
   "parameters" : [ "dummy" ],
   "tfsize" : [ 0 ],
   "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ]],
-  "fbtypes" : [[ 2, 1, 1, 1, null, null ], [ 1, 2, 1, 1, null, null ], [ 1, 1, 2, 1, null, null ], [ 1, 1, 1, 2, null, null ]],
+  "fbtypes" : [[ 0, 1, 1, 1, null, null ], [ 1, 0, 1, 1, null, null ], [ 1, 1, 0, 1, null, null ], [ 1, 1, 1, 0, null, null ]],
   "lastfocus" : "dummy"
   },
   
@@ -546,7 +546,13 @@
     "labels" : [ "Assign note:", "Parameter:", "High range:", "Low  range:", "Assign NV slider to ctrl change:" ],
     "x" : [ 6, 7, 131, 131, 6 ],
     "y" : [ 2, 20, 14, 24, 36 ],
- 	"parameters" : [ "assignnote", "parameter", "highrange", "lowrange", "assignnv" ],
+ 	"parameters" : [
+	"assignnote", [ "parameter", "highrange", "_", "parameter" ],
+	"parameter", [ "_", "highrange", "assignnote", "assignnv" ],
+	"highrange", [ "parameter", "_", "assignnote", "lowrange" ],
+	"lowrange", [ "parameter", "_", "highrange", "assignnv" ],
+	"assignnv", [ "parameter", "_", "lowrange", "_" ]
+	],
     "tfsize" : [ 138, 36, 24, 24, 18 ],
 	"fblabels" : [ null, null, null, null, null, null ],
 	"fbtypes" : [ null, null, null, null, null, null ],
