@@ -119,7 +119,7 @@
 	 ],
 	"infox" : [  21, 23, 23, 23, 23, 23, 84, 90, 84, 90, 84, 90, 84, 90, 84, 90 ],
 	"infoy" :  [ 10, 10, 18, 26, 34, 42, 10, 10, 18, 18, 26, 26, 34, 34, 42, 42 ],
-	"infosize" : [ 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 ],  
+	"infosize" : [ 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 ],  
 	"fblabels" : [ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", "PLAY" ],
 	"fbtypes" : [ null, 1, 1, 0, 1, 1 ],
 	"lastfocus" : "file1"
@@ -831,7 +831,7 @@
   	"x" : [ 26, 32, 80, 98, 116, 140, 158, 26, 139, 26, 112 ],
   	"y" : [ 13, 23, 23, 23, 23, 23, 23, 33, 33, 43, 43 ],
   	"tfsize" : [ 12, 18, 12, 12, 18, 12, 12, 66, 72, 48, 48 ],
-  	"parameters" : [ "track", "time0", "time1", "time2", "time3", "time4", "time5", "erase", "type", "notes0", "notes1" ],
+  	"parameters" : [ "track", "time0", "time1", "time2", "time3", "time4", "time5", "erase", "type", "note0", "note1" ],
 	"infowidgets" : [ "track-name" ],
 	"infox" : [ 74 ],
 	"infoy" : [ 13 ],
@@ -867,7 +867,20 @@
   	"x" : [ 26, 169, 26, 169, 32, 80, 98, 116, 140, 158, 26, 110 ],
   	"y" : [ 12, 12, 22, 22, 32, 32, 32, 32, 32, 32, 41, 41 ],
   	"tfsize" : [ 42, 12, 42, 12, 18, 12, 12, 18, 12, 12, 48, 48 ],
-  	"parameters" : [ "notevalue", "swing", "shifttiming", "amount", "time0", "time1", "time2", "time3", "time4", "time5", "notes0", "notes1" ],
+  	"parameters" : [
+	"notevalue", [ "_", "swing", "_", "shifttiming" ],
+	"swing", [ "notevalue", "_", "_", "amount" ],
+	"shifttiming", [ "time0", "amount", "notevalue", "time0" ],
+	"amount", [ "shifttiming", "_", "swing", "time3" ],
+	"time0", [ "_", "time1", "shifttiming", "note0" ],
+	"time1", [ "time0", "time2", "shifttiming", "note0" ],
+	"time2", [ "time1", "time3", "shifttiming", "note0" ],
+	"time3", [ "time2", "time4", "amount", "note1,note0" ],
+	"time4", [ "time3", "time5", "amount", "note1,note0" ],
+	"time5", [ "time4", "_", "amount", "note1,note0" ],
+	"note0", [ "_", "note1", "time0", "_" ],
+	"note1", [ "note0", "_", "time3", "_" ]
+	],
   	"fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "notevalue"
@@ -1028,7 +1041,7 @@
   	"x" : [ 26, 169, 32, 80, 98, 115, 139, 157, 26, 114 ],
   	"y" : [ 16, 16, 33, 33, 33, 33, 33, 33, 42, 42 ],
   	"tfsize" : [ 66, 18, 18, 12, 12, 18, 12, 12, 48, 48 ],
-  	"parameters" : [ "edittype", "value", "time0", "time1", "time2", "time3", "time4", "time5", "notes0", "notes1" ],
+  	"parameters" : [ "edittype", "value", "time0", "time1", "time2", "time3", "time4", "time5", "note0", "note1" ],
   	"fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
   	"fbtypes" : [ null, null, null, 0, 1, null ],
   	"lastfocus" : "edittype"
