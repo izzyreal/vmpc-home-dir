@@ -120,8 +120,8 @@
 	"infox" : [  21, 23, 23, 23, 23, 23, 84, 90, 84, 90, 84, 90, 84, 90, 84, 90 ],
 	"infoy" :  [ 10, 10, 18, 26, 34, 42, 10, 10, 18, 18, 26, 26, 34, 34, 42, 42 ],
 	"infosize" : [ 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 ],  
-	"fblabels" : [ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", "PLAY" ],
-	"fbtypes" : [ null, 1, 1, 0, 1, 1 ],
+	"fblabels" : [[ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", null ],[ null, "DELETE", "RENAME", "CLOSE", "\u00C3NEW", "PLAY" ]],
+	"fbtypes" : [[ null, 1, 1, 0, 1, null ],[ null, 1, 1, 0, 1, 1 ]],
 	"lastfocus" : "file1"
   },
   
@@ -653,7 +653,7 @@
   	"x" : [ 145, 145, 139, 139 ],
   	"y" : [ 14, 23, 33, 42 ],
   	"tfsize" : [ 49, 49, 24, 48 ],
-  	"parameters" : [ "to", "lngth", "looplngth", "playx" ],
+  	"parameters" : [ "to", "lngth", "loop-lngth", "playx" ],
   	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
   	"lastfocus" : "to"
@@ -665,7 +665,7 @@
   	"x" : [ 145, 145, 139, 139 ],
   	"y" : [ 14, 23, 33, 42 ],
   	"tfsize" : [ 48, 48, 24, 48 ],
-  	"parameters" : [ "end", "lngth", "looplngth", "playx" ],
+  	"parameters" : [ "end", "lngth", "loop-lngth", "playx" ],
   	"fblabels" : [ null, "ZOOM-", "ZOOM+", "CLOSE", "PLAY X", null ],
   	"fbtypes" : [ null, 1, 1, 0, 1, null ],
   	"lastfocus" : "end"
