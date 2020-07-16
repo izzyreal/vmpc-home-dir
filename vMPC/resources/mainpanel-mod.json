@@ -86,7 +86,7 @@
 	 ],
 	 
 	"parameters" : [
-	"view", "fromnote", "tonote", "controlnumber", "now0", "now1", "now2"
+	"view", "fromnote", "tonote,fromnote", "controlnumber", "now0", "now1", "now2"
 	 ],
 
     "x" : [
@@ -100,7 +100,7 @@
     ],
 	"fblabels" : [[ "TC", "COPY", "DELETE", "INSERT", "PASTE", "PLAY" ], [ "TC", "COPY", "DELETE", "EDIT", null, "CANCEL" ]],
 	"fbtypes" : [[ 1, 1, 1, 1, 1, 1 ], [ 1, 1, 1, 1, null, 1 ]],
-	"lastfocus" : "fromnote"
+	"lastfocus" : "view"
   },
   
    "load":
