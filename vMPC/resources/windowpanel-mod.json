@@ -903,8 +903,8 @@
 },
 "assign-16-levels":
 {
- "labels" : [ "Note :", "Param:", "Type:", "Original key pad:" ],
- "x" : [ 37, 37, 37, 110 ],
+ "labels" : [ "Note :", "Param:", "Type :", "Original\u00CEkey\u00CEpad:" ],
+ "x" : [ 37, 37, 37, 116 ],
  "y" : [ 16, 26, 36, 36 ],
  "tfsize" : [ 138, 60, 36, 12 ],
  "parameters" : [ "note", "param", "type", "originalkeypad" ],
