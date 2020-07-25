@@ -180,8 +180,14 @@
  "fxdrum", [ "recordmixchanges", "_", "masterlevel", "_" ]
 ],
  "tfsize" : [ 42, 42, 18, 18, 30, 24 ],
- "fblabels" : [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
- "fbtypes" : [ 0, 1, 1, 1, 2, 0 ]
+ "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
+               [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
+			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
+			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ]],
+ "fbtypes" : [[ 0, 1, 1, 1, 0, 0 ],
+              [ 1, 0, 1, 1, 0, 0 ],
+			  [ 1, 1, 0, 1, 0, 0 ],
+			  [ 1, 1, 1, 0, 0, 0 ]]
 },
 "program-assign":
 {
