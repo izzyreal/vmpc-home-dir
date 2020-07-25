@@ -157,21 +157,28 @@
  "y" : [ 1 ],
  "parameters" : [ "dummy" ],
  "tfsize" : [ 0 ],
- "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
-               [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
-			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
-			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ]],
- "fbtypes" : [[ 0, 1, 1, 1, null, null ],
-              [ 1, 0, 1, 1, null, null ],
-			  [ 1, 1, 0, 1, null, null ],
-			  [ 1, 1, 1, 0, null, null ]]
+ "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
+               [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
+			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
+			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ]],
+ "fbtypes" : [[ 0, 1, 1, 1, 0, 0 ],
+              [ 1, 0, 1, 1, 0, 0 ],
+			  [ 1, 1, 0, 1, 0, 0 ],
+			  [ 1, 1, 1, 0, 0, 0 ]]
 },
 "mixer-setup":
 {
  "labels" : [ "Stereo mix source:", "INDIV/FX source:", "Copy pgm to drum:", "Record mix changes:", "", "Drum:" ],
  "x" : [ 9, 21, 15, 28, 193, 187 ],
  "y" : [ 13, 22, 31, 40, 14, 39 ],
- "parameters" : [ "stereomixsource", "indivfxsource", "copypgmmixtodrum", "recordmixchanges", "masterlevel", "fxdrum" ],
+ "parameters" : [
+ "stereomixsource", [ "_", "masterlevel", "_", "indivfxsource" ],
+ "indivfxsource", [ "masterlevel", "copypgmmixtodrum", "stereomixsource", "copypgmmixtodrum" ],
+ "copypgmmixtodrum", [ "indivfxsource", "recordmixchanges", "indivfxsource", "recordmixchanges" ],
+ "recordmixchanges", [ "copypgmmixtodrum", "fxdrum", "copypgmmixtodrum", "_" ],
+ "masterlevel", [ "stereomixsource", "indivfxsource", "_", "fxdrum" ],
+ "fxdrum", [ "recordmixchanges", "_", "masterlevel", "_" ]
+],
  "tfsize" : [ 42, 42, 18, 18, 30, 24 ],
  "fblabels" : [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
  "fbtypes" : [ 0, 1, 1, 1, 2, 0 ]
