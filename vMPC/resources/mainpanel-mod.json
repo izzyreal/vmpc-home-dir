@@ -197,7 +197,7 @@
 "program-params":
 {
  "labels" : [ "Pgm:", "Note:", "Attack:", "Decay:", "Dcy md:", "Freq:", "Reson:", "Tune:", "" ],
- "x" : [ 3, 45, 3, 3, 3, 134, 134, 188, 188 ],
+ "x" : [ 3, 45, 3, 3, 3, 134, 134, 190, 190 ],
  "y" : [ 2, 2, 22, 31, 40, 26, 37, 12, 40 ],
  "parameters" : [
  "pgm", [ "_", "note", "_", "attack" ],
