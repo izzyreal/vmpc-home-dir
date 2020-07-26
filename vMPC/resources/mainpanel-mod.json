@@ -199,7 +199,16 @@
  "labels" : [ "Pgm:", "Note:", "Attack:", "Decay:", "Dcy md:", "Freq:", "Reson:", "Tune:", "" ],
  "x" : [ 3, 45, 3, 3, 3, 128, 128, 182, 180 ],
  "y" : [ 2, 2, 22, 31, 40, 26, 37, 12, 40 ],
- "parameters" : [ "pgm", "note", "attack", "decay", "dcymd", "freq", "reson", "tune", "voiceoverlap" ],
+ "parameters" : [
+ "pgm", [ "_", "note", "_", "attack" ],
+ "note", [ "pgm", "attack", "_", "freq" ],
+ "attack", [ "note", "freq", "pgm", "decay" ],
+ "decay", [ "tune", "reson", "attack", "dcymd" ],
+ "dcymd", [ "voiceoverlap", "reson", "decay", "_" ],
+ "freq", [ "attack", "tune", "note", "reson" ],
+ "reson", [ "decay", "voiceoverlap", "freq", "_" ],
+ "tune", [ "freq", "decay", "note", "voiceoverlap" ],
+ "voiceoverlap",  [ "reson", "dcymd", "tune", "_" ]],
  "tfsize" : [ 12, 162, 18, 18, 30, 18, 12, 24, 48 ],
  "fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", "AUTO", "PLAY" ],
  "fbtypes" : [ 0, 2, 0, 0, 1, 1 ]
