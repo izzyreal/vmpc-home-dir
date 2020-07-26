@@ -1,24 +1,4 @@
 {
-"black":
-{
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
- "fblabels": [ null , null, null, null, null, null],
- "fbtypes": [ null , null, null, null, null, null]
-},
-"mpc2000xl":
-{
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
- "fblabels": [ null , null, null, null, null, null],
- "fbtypes": [ null , null, null, null, null, null]
-},
 "sequencer":
 {
  "labels" : [ "Sq:", "Now:", ".", ".", "  :", "", "Timing:", "Tsig:", "Count:", "Loop:", "Bars:", "Tr:", "ON:", "Pgm:", "", ":", ":", "Velo%:", "Next Sq:" ],
