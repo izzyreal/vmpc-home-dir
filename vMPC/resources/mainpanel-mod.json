@@ -172,9 +172,20 @@
 "program-assign":
 {
  "labels" : [ "Pgm:", "Pad:", "=Note:", "Pad assign:", "Note:", "=Snd:", "Mode:", "If over:", "If over:", "Also play note:", "Also play note:" ],
- "x" : [ 3,  8, 50, 130,  8, 50,  8, 90, 90, 108, 108 ],
+ "x" : [ 3,  8, 50, 130,  8, 50,  8, 96, 96, 108, 108 ],
  "y" : [ 2, 12, 12,  12, 22, 22, 40, 31, 40,  31,  40 ],
- "parameters" : [ "pgm", "pad", "pad-note", "pad-assign", "note", "snd", "mode", "velocity-range-lower", "velocity-range-upper", "optional-note-a", "optional-note-b" ],
+ "parameters" : [
+ "pgm", [ "_", "pad", "_", "pad"],
+ "pad", [ "pgm", "pad-note", "pgm", "note"],
+ "pad-note", [ "pad", "pad-assign", "pgm", "snd"],
+ "pad-assign", [ "pad-note", "note", "pgm", "optional-note-a"],
+ "note", [ "pad-assign", "snd", "pad", "mode"],
+ "snd", [ "note", "mode", "pad-note", "optional-note-a"],
+ "mode", [ "snd", "velocity-range-lower", "note", "_"],
+ "velocity-range-lower,mode", [ "mode", "optional-note-a", "snd", "velocity-range-upper" ],
+ "velocity-range-upper,mode", [ "mode", "optional-note-b", "velocity-range-lower", "_"],
+ "optional-note-a,velocity-range-lower", [ "velocity-range-lower", "_", "pad-assign", "optional-note-b"],
+ "optional-note-b", [ "velocity-range-upper", "_", "optional-note-a", "_"]],
  "tfsize" : [ 114, 18, 12, 42, 12, 96, 36, 18, 18, 36, 36 ],
  "infowidgets" : [ "issoundstereo" ],
  "infosize" : [ 24 ],
