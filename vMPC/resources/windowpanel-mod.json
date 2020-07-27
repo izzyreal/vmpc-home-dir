@@ -339,11 +339,17 @@
 },
 "velo-env-filter":
 {
- "labels" : [ "Note:", "Attack:", "Decay:", "Amount:", "Velo Freq:", "Velo:" ],
- "x" : [ 25, 20, 26, 20, 145, 175 ],
+ "labels" : [ "Note:", "Attack:", "Decay:", "Amount:", "Freq:", "Velo:" ],
+ "x" : [ 25, 20, 26, 20, 181, 181 ],
  "y" : [ 11, 23, 33, 43, 28, 40 ],
  "tfsize" : [ 138, 18, 18, 18, 18, 18 ],
- "parameters" : [ "note", "attack", "decay", "amount", "velofreq", "velo" ],
+ "parameters" : [
+ "note", [ "_", "_", "_", "attack" ],
+ "attack", [ "_", "velofreq", "note", "decay" ],
+ "decay", [ "_", "velofreq", "attack", "amount" ],
+ "amount", [ "_", "velo", "decay", "_" ],
+ "velofreq", [ "attack", "_", "note", "velo" ],
+ "velo", [ "amount", "_", "velofreq", "_" ]],
  "fblabels" : [ null, null, null, "CLOSE", "PLAY", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
