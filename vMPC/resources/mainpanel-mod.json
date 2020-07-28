@@ -236,7 +236,7 @@
 "events":
 {
  "labels" : [ "Edit:", "", ".", ".", "-", ".", ".", "", "-", "From sq:", "Tr:", "To sq:", "Tr:", "Mode:", "Start:", ".", ".", "Copies:" ],
- "x" : [ 2, 8, 26, 44, 62, 86, 104, 8, 55, 132, 204, 144, 204, 150, 144, 198, 216, 138 ],
+ "x" : [ 2, 8, 26, 44, 62, 86, 104, 8, 55, 132, 204, 145, 204, 150, 145, 198, 216, 138 ],
  "y" : [ 2, 21, 21, 21, 21, 21, 21, 39, 39, 2, 2, 12, 12, 21, 30, 30, 30, 39 ],
  "parameters" : [
  "edit", [ "_", "from-sq", "_", "time0" ],
@@ -248,15 +248,15 @@
  "time5", [ "time4", "mode", "edit", "note1,note0" ],
  "note0", [ "_", "note1,copies", "time0", "_" ],
  "note1,note0", [ "note0", "copies", "time3", "_" ],
- "from-sq", [ "edit", "from-tr", "_", "to-sq" ],
- "from-tr", [ "from-sq", "_", "_", "to-tr" ],
+ "from-sq", [ "edit", "from-tr", "_", "to-sq,mode" ],
+ "from-tr", [ "from-sq", "_", "_", "to-tr,mode" ],
  "to-sq", [ "time5", "to-tr", "from-sq", "mode" ],
  "to-tr", [ "to-sq", "_", "from-tr", "mode" ],
- "mode", [ "time5", "_", "to-sq", "start0" ],
+ "mode", [ "time5", "_", "to-sq,from-sq", "start0,copies" ],
  "start0", [ "time5", "start1", "mode", "copies" ],
  "start1", [ "start0", "start2", "mode", "copies" ],
  "start2", [ "start1", "_", "mode", "copies" ],
- "copies", [ "note1,note0", "_", "start0", "_" ]],
+ "copies", [ "note1,note0", "_", "start0,mode", "_" ]],
  "tfsize" : [ 55, 18, 12, 12, 18, 12, 12, 47, 47, 12, 12, 12, 12, 42, 18, 12, 12, 12 ],
  "fblabels" : [ "EVENTS", "BARS", "TrMOVE", "USER", null, "DO IT"],
  "fbtypes" : [ 2, 0, 0, 0, null, 1 ]
