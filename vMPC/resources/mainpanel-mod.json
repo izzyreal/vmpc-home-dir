@@ -266,9 +266,15 @@
  "labels" : [ "From  Sq:", "First bar:", "Last bar:", "To Sq:", "After bar:", "Copies:" ],
  "x" : [ 4, 22, 28, 154, 154, 172 ],
  "y" : [ 3, 14, 36, 3, 14, 36 ],
- "parameters" : [ "fromsq", "firstbar", "lastbar", "tosq", "afterbar", "copies" ],
+ "parameters" : [
+ "fromsq", [ "_", "tosq", "_", "firstbar" ],
+ "firstbar", [ "_", "afterbar", "fromsq", "lastbar" ],
+ "lastbar", [ "_", "copies", "firstbar", "_" ],
+ "tosq", [ "fromsq", "afterbar", "_", "afterbar" ],
+ "afterbar", [ "firstbar", "_", "tosq", "copies" ],
+ "copies",  [ "lastbar", "_", "afterbar", "_" ]],
  "tfsize" : [ 12, 18, 18, 12, 18, 12 ],
- "fblabels" : [ "EVENTS", "BARS", "TrMOVE", "USER", null, "DO IT"],
+ "fblabels" : [ "EVENTS", "BAR", "TrMOVE", "USER", null, "DO IT"],
  "fbtypes" : [ 0, 2, 0, 0, null, 1 ]
 },  
 "tr-move":
