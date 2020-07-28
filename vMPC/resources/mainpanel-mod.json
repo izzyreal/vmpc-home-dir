@@ -213,6 +213,36 @@
  "fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", "AUTO", "PLAY" ],
  "fbtypes" : [ 0, 2, 0, 0, 1, 1 ]
 },
+"drum":
+{
+ "labels" : [ "Drum:", "Pad to internal sound:", "Pgm:", "Program Change:", "MIDI volume:", "Current val.:" ],
+ "x" : [ 3, 89, 9, 3, 21, 147],
+ "y" : [ 2, 2, 14, 26, 37, 37 ],
+ "parameters" : [
+ "drum", [ "_", "padtointernalsound", "_", "pgm" ],
+ "padtointernalsound", [ "drum", "pgm", "_", "current-val" ],
+ "pgm", [ "padtointernalsound", "program-change", "drum", "program-change" ],
+ "program-change", [ "pgm", "midi-volume", "pgm", "midi-volume" ],
+ "midi-volume", [ "program-change", "current-val", "program-change", "_" ],
+ "current-val", [ "midi-volume", "_", "padtointernalsound", "_" ]],
+ "tfsize" : [ 6, 18, 114, 42, 42, 18 ],
+ "fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", null, null ],
+ "fbtypes" : [ 0, 0, 2, 0, null, null ]
+},
+"purge":
+{
+ "labels" : [ "" ],
+ "x" : [ 1 ],
+ "y" : [ 1 ],
+ "parameters" : [ "dummy" ],
+ "tfsize" : [ 0 ],
+ "infowidgets" : [ "value" ],
+ "infox" : [ 23 ],
+ "infoy" : [ 35 ],
+ "infosize" : [ 18 ],
+ "fblabels" : [[ "ASSIGN", "PARAMS", "DRUM", "PURGE", null, null ], [ "ASSIGN", "PARAMS", "DRUM", "PURGE", null, "DO IT" ]],
+ "fbtypes" : [[ 0, 0, 0, 2, null, null ], [ 0, 0, 0, 2, null, 1 ]]
+},
 "format":
 {
  "labels" : [ "Device:" ],
@@ -298,7 +328,16 @@
  "labels" : [ "\u00C0:", "Loop:", "Tsig:", "Bars:", "Pgm:", "", ":", ":", "Velo%:" ],
  "x" : [ 8, 108, 185, 185, 190, 8, 14, 50, 178 ],
  "y" : [ 12, 21, 12, 21, 31, 40, 40, 40, 40 ],
- "parameters" : [ "tempo", "loop", "tsig", "bars", "pgm", "recordingmode", "bus", "device", "velo" ],
+ "parameters" : [
+ "tempo", [ "_", "loop", "_", "bus" ],
+ "loop", [ "tempo", "tsig", "tempo", "device" ],
+ "tsig", [ "loop", "_", "_", "bars" ],
+ "bars", [ "loop", "_", "tsig", "pgm" ],
+ "pgm", [ "device", "_", "bars", "velo" ],
+ "recordingmode", [ "_", "bus", "tempo", "_" ],
+ "bus", [ "recordingmode", "device", "tempo", "_" ],
+ "device", [ "bus", "velo", "tempo", "_" ],
+ "velo", [ "device", "_", "pgm", "_" ]],
  "tfsize" : [ 30, 18, 30, 18, 18, 6, 30, 18, 18 ],
  "infowidgets" : [ "devicename" ],
  "infosize" : [ 96 ],
@@ -306,30 +345,6 @@
  "infoy" : [ 39 ],
  "fblabels" : [ "EVENTS", "BARS", "TrMOVE", "USER", null, null],
  "fbtypes" : [ 0, 0, 0, 2, null, null ]
-},
-"drum":
-{
- "labels" : [ "Drum:", "Pad to internal sound:", "Pgm:", "Program Change:", "MIDI volume:", "Current val.:" ],
- "x" : [ 3, 89, 9, 3, 21, 147],
- "y" : [ 2, 2, 14, 26, 37, 37 ],
- "parameters" : [ "drum", "padtointernalsound", "pgm", "programchange", "midivolume", "currentval" ],
- "tfsize" : [ 6, 18, 114, 42, 42, 18 ],
- "fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", null, null ],
- "fbtypes" : [ 0, 0, 2, 0, null, null ]
-},
-"purge":
-{
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
- "infowidgets" : [ "value" ],
- "infox" : [ 23 ],
- "infoy" : [ 35 ],
- "infosize" : [ 18 ],
- "fblabels" : [ "ASSIGN", "PARAMS", "DRUM", "PURGE", "DO IT", null ],
- "fbtypes" : [ 0, 0, 0, 2, 1, null ]
 },
 "fx-edit":
 {
