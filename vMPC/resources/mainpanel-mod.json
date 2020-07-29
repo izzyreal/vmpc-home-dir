@@ -388,11 +388,18 @@
 },
 "sync":
 {
- "labels" : [ "Sync In     (In:", "Mode:", "Receive MMC:", "Sync Out (Out:", "Mode:", "Send MMC:" ],
- "x" : [ 4, 4, 4, 128, 128, 128 ],
- "y" : [ 2, 12, 38, 2, 12, 38 ],
- "parameters" : [ "in", "mode-in", "receive-mmc", "out", "mode-out", "send-mmc" ],
- "tfsize" : [ 6, 72, 18, 18, 72, 18 ],
+ "labels" : [ "Sync In     (In:", "Mode:", "Shift early(ms):", "Receive MMC:", "Sync Out (Out:", "Mode:", "Send MMC:" ],
+ "x" : [ 4, 4, 4, 4, 128, 128, 128 ],
+ "y" : [ 2, 12, 20, 38, 2, 12, 38 ],
+ "parameters" : [
+ "in", [ "_", "out", "_", "mode-in" ],
+ "mode-in", [ "_", "mode-out", "in", "shift-early,receive-mmc" ],
+ "shift-early", [ "_", "mode-out", "mode-in", "receive-mmc" ],
+ "receive-mmc", [ "_", "send-mmc", "shift-early,mode-in", "_" ],
+ "out", [ "in", "_", "_", "mode-out" ],
+ "mode-out", [ "mode-in", "_", "out", "send-mmc" ],
+ "send-mmc", [ "receive-mmc", "_", "mode-out", "_" ]],
+ "tfsize" : [ 6, 72, 12, 18, 18, 72, 18 ],
  "fblabels" : [ "SYNC", "DUMP", "MIDIsw", null, null, null ],
  "fbtypes" : [ 2, 0, 0, null, null, null ]
 },
