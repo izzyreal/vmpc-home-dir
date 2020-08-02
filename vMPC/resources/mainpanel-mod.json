@@ -458,7 +458,14 @@
  "labels" : [ "Snd:", "PLAY X:", "To:", "", ":", "Loop:", "" ],
  "x" : [ 2, 157, 8, 86, 116, 186, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 12, 1 ],
- "parameters" : [ "snd", "playx", "to", "endlength", "endlengthvalue", "loop", "dummy" ],
+ "parameters" : [
+ "snd", [ "_", "playx", "_", "to" ],
+ "playx", [ "snd", "to", "_", "loop" ],
+ "to", [ "playx", "endlength", "snd", "_" ],
+ "endlength", [ "to", "endlengthvalue", "snd", "_" ],
+ "endlengthvalue", [ "endlength", "loop", "snd", "_" ],
+ "loop", [ "endlengthvalue", "_", "playx", "_" ], 
+ "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 31, 48, 30, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 0, 2, 0, 0, 1, 1]
@@ -468,7 +475,13 @@
  "labels" : [ "Snd:", "PLAY X:", "St:", "End:", "Zone:", "" ],
  "x" : [ 2, 157, 8, 98, 190, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 1 ],
- "parameters" : [ "snd", "playx", "st", "end", "zone", "dummy" ],
+ "parameters" : [
+ "snd", [ "_", "playx", "_", "st" ],
+ "playx", [ "snd", "st", "_", "zone" ],
+ "st", [ "playx", "end", "snd", "_" ],
+ "end", [ "st", "zone", "snd", "_" ],
+ "zone", [ "end", "_", "playx", "_" ],
+ "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 48, 12, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 0, 0, 2, 0, 1, 1]
