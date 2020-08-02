@@ -466,7 +466,7 @@
  "endlengthvalue", [ "endlength", "loop", "snd", "_" ],
  "loop", [ "endlengthvalue", "_", "playx", "_" ], 
  "dummy,snd" ],
- "tfsize" : [ 120, 48, 48, 31, 48, 30, 0 ],
+ "tfsize" : [ 120, 48, 48, 30, 48, 30, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 0, 2, 0, 0, 1, 1]
 },
