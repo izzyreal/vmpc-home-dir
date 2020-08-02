@@ -427,9 +427,9 @@
 {
  "labels" : [ "Input:", "Mode:", "Monitor:", "Threshold:", "Time:", "Pre-rec:" ],
  "x" : [ 1, 91, 169, 1, 91, 169 ],
- "y" : [ 1, 1, 1, 11, 11, 11 ],
+ "y" : [ 1, 1, 1, 10, 10, 10 ],
  "parameters" : [ "input", "mode", "monitor", "threshold", "time", "prerec" ],
- "tfsize" : [ 42, 36, 18, 18, 36, 30 ],
+ "tfsize" : [ 42, 36, 18, 18, 30, 18 ],
  "infowidgets" : [ "vuleft", "vuright" ],
  "infox" : [ 39, 39 ],
  "infoy" : [ 29, 38 ],
@@ -443,7 +443,7 @@
  "x" : [ 2, 157, 8, 98, 186, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 1 ],
  "parameters" : [ "snd", "playx", "st", "end", "view", "dummy" ],
- "tfsize" : [ 120, 48, 55, 55, 30, 0 ],
+ "tfsize" : [ 120, 48, 48, 48, 30, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 2, 0, 0, 0, 1, 1]
 },
@@ -453,7 +453,7 @@
  "x" : [ 2, 157, 8, 86, 116, 186, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 12, 1 ],
  "parameters" : [ "snd", "playx", "to", "endlength", "endlengthvalue", "loop", "dummy" ],
- "tfsize" : [ 120, 48, 55, 31, 55, 30, 0 ],
+ "tfsize" : [ 120, 48, 48, 31, 48, 30, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 0, 2, 0, 0, 1, 1]
 },
@@ -463,7 +463,7 @@
  "x" : [ 2, 157, 8, 98, 190, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 1 ],
  "parameters" : [ "snd", "playx", "st", "end", "zone", "dummy" ],
- "tfsize" : [ 120, 48, 55, 55, 12, 0 ],
+ "tfsize" : [ 120, 48, 48, 48, 12, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 0, 0, 2, 0, 1, 1]
 },
