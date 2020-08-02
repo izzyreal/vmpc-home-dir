@@ -442,7 +442,13 @@
  "labels" : [ "Snd:", "PLAY X:", "St:", "End:", "View:", "" ],
  "x" : [ 2, 157, 8, 98, 186, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 1 ],
- "parameters" : [ "snd", "playx", "st", "end", "view", "dummy" ],
+ "parameters" : [
+ "snd", [ "_", "playx", "_", "st" ],
+ "playx", [ "snd", "st", "_", "view" ],
+ "st", [ "playx", "end", "snd", "_" ],
+ "end", [ "st", "view", "snd", "_" ],
+ "view", [ "end", "_", "playx", "_" ],
+ "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 48, 30, 0 ],
  "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
  "fbtypes" : [ 2, 0, 0, 0, 1, 1]
