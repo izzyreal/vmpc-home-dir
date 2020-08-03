@@ -433,9 +433,7 @@
  "infowidgets" : [ "vuleft", "vuright" ],
  "infox" : [ 39, 39 ],
  "infoy" : [ 29, 38 ],
- "infosize" : [ 204, 204 ],
- "fblabels" : [ null, null, null, null, null, null ],
- "fbtypes" : [ null, null, null, null, null, null ]
+ "infosize" : [ 204, 204 ]
 },
 "trim":
 {
@@ -450,8 +448,8 @@
  "view", [ "end", "_", "playx", "_" ],
  "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 48, 30, 0 ],
- "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
- "fbtypes" : [ 2, 0, 0, 0, 1, 1]
+ "fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ]],
+ "fbtypes" : [[ 2, 0, 0, 0, null, null],[ 2, 0, 0, 0, 1, 1]]
 },
 "loop":
 {
@@ -459,16 +457,16 @@
  "x" : [ 2, 157, 8, 86, 116, 186, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 12, 1 ],
  "parameters" : [
- "snd", [ "_", "playx", "_", "to" ],
- "playx", [ "snd", "to", "_", "loop" ],
- "to", [ "playx", "endlength", "snd", "_" ],
- "endlength", [ "to", "endlengthvalue", "snd", "_" ],
- "endlengthvalue", [ "endlength", "loop", "snd", "_" ],
- "loop", [ "endlengthvalue", "_", "playx", "_" ], 
+ "snd,dummy", [ "_", "playx", "_", "to" ],
+ "playx,dummy", [ "snd", "to", "_", "loop" ],
+ "to,dummy", [ "playx", "endlength", "snd", "_" ],
+ "endlength,dummy", [ "to", "endlengthvalue", "snd", "_" ],
+ "endlengthvalue,dummy", [ "endlength", "loop", "snd", "_" ],
+ "loop,dummy", [ "endlengthvalue", "_", "playx", "_" ], 
  "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 30, 48, 30, 0 ],
- "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
- "fbtypes" : [ 0, 2, 0, 0, 1, 1]
+"fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ]],
+  "fbtypes" : [[ 0, 2, 0, 0, null, null], [ 0, 2, 0, 0, 1, 1]]
 },
 "zone":
 {
@@ -476,29 +474,35 @@
  "x" : [ 2, 157, 8, 98, 190, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 1 ],
  "parameters" : [
- "snd", [ "_", "playx", "_", "st" ],
- "playx", [ "snd", "st", "_", "zone" ],
- "st", [ "playx", "end", "snd", "_" ],
- "end", [ "st", "zone", "snd", "_" ],
- "zone", [ "end", "_", "playx", "_" ],
+ "snd,dummy", [ "_", "playx", "_", "st" ],
+ "playx,dummy", [ "snd", "st", "_", "zone" ],
+ "st,dummy", [ "playx", "end", "snd", "_" ],
+ "end,dummy", [ "st", "zone", "snd", "_" ],
+ "zone,dummy", [ "end", "_", "playx", "_" ],
  "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 48, 12, 0 ],
- "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ],
- "fbtypes" : [ 0, 0, 2, 0, 1, 1]
+"fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ]],
+  "fbtypes" : [[ 0, 0, 2, 0, null, null],[ 0, 0, 2, 0, 1, 1]]
 },
 "params":
 {
  "labels" : [ "Snd:", "PLAY X:", "Level:", "Beat:", "Tune:", "" ],
  "x" : [ 2, 157, 14, 183, 14,  1 ],
  "y" : [ 2, 1, 18, 17, 33, 1 ],
- "parameters" : [ "snd", "playx", "level", "beat", "tune", "dummy" ],
+ "parameters" : [
+ "snd,dummy", [ "_", "playx", "_", "level" ],
+ "playx,dummy", [ "snd", "level", "_", "beat" ],
+ "level,dummy", [ "playx", "beat", "snd", "tune" ],
+ "beat,dummy", [ "level", "tune", "playx", "_" ],
+ "tune,dummy", [ "beat", "_", "level", "_" ],
+ "dummy,snd" ],
  "tfsize" : [ 120, 48, 18, 12, 24, 0 ],
  "infowidgets" : [ "sample-tempo", "new-tempo" ],
  "infox" : [ 135, 153 ],
  "infoy" : [ 26, 35 ],
  "infosize" : [ 108, 90 ],
- "fblabels" : [ "TRIM", "LOOP", "ZONE", "PARAMS", null, "PLAY X" ],
- "fbtypes" : [ 0, 0, 0, 2, null, 1]
+"fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", null, "PLAY X" ]],
+  "fbtypes" : [[ 0, 0, 0, 2, null, null],[ 0, 0, 0, 2, null, 1]]
 },
 
 "song":
