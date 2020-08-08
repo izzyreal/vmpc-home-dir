@@ -549,7 +549,11 @@
  "labels" : [ "Tr:", "Transpose amount:", "Bar:", "- " ],
  "x" : [ 2, 4, 160, 208 ],
  "y" : [ 2, 13, 36, 36 ],
- "parameters" : [ "tr", "transpose-amount", "bar0", "bar1" ],
+ "parameters" : [
+ "tr", [ "_", "transpose-amount", "_", "transpose-amount" ],
+ "transpose-amount", [ "tr", "bar0", "tr", "bar0" ],
+ "bar0", [ "transpose-amount", "bar1", "transpose-amount", "_" ],
+ "bar1", [ "bar0", "_", "transpose-amount", "bar0" ]],
  "tfsize" : [ 12, 18, 18, 18 ],
  "infowidgets" : [ "track-name" ],
  "infosize" : [ 96 ],
