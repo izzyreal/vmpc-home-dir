@@ -504,14 +504,29 @@
 "fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", null, "PLAY X" ]],
   "fbtypes" : [[ 0, 0, 0, 2, null, null],[ 0, 0, 0, 2, null, 1]]
 },
-
 "song":
 {
  "labels" : [ "Song:", "Now:", ".", ".", "TEMPO:", "\u00C0:", "LOOP:", "", "", "", "", "", "", "", "", "" ],
  "x" : [ 2, 168, 210, 228, 6, 28, 12, 81, 81, 81, 105, 105, 105, 227, 227, 227  ],
  "y" : [ 2, 1, 1, 1, 13, 22, 36, 23, 31, 39, 23, 31, 39, 23, 31, 39 ],
- "parameters" : [ "song", "now0", "now1", "now2", "temposource", "tempo", "loop", "step0", "step1", "step2", "sequence0", "sequence1", "sequence2", "reps0", "reps1", "reps2" ],
- "tfsize" : [ 114, 18, 12, 12, 30, 30, 18, 18, 18, 18, 114, 114, 114, 12, 12, 12  ],
+ "parameters" : [
+ "song", [ "_", "sequence1", "_", "step1" ],
+ "now0", [ "_", "_", "_", "_" ],
+ "now1", [ "_", "_", "_", "_" ],
+ "now2", [ "_", "_", "_", "_" ],
+ "temposource", [ "song", "step1", "song", "tempo" ],
+ "tempo", [ "_", "sequence1", "temposource", "loop" ],
+ "loop", [ "_", "sequence1", "tempo", "_" ],
+ "step0", [ "_", "_", "_", "_" ],
+ "step1", [ "tempo", "sequence1", "_", "_" ],
+ "step2", [ "_", "_", "_", "_" ],
+ "sequence0", [ "_", "_", "_", "_" ],
+ "sequence1", [ "loop", "reps1", "song", "_" ],
+ "sequence2", [ "_", "_", "_", "_" ],
+ "reps0", [ "_", "_", "_", "_" ],
+ "reps1", [ "sequence1", "_", "song", "_" ],
+ "reps2", [ "_", "_", "_", "_" ]],
+ "tfsize" : [ 117, 18, 12, 12, 30, 30, 18, 18, 18, 18, 114, 114, 114, 12, 12, 12  ],
  "fblabels" : [ null, null, null, "CONVRT", "DELETE", "INSERT" ],
  "fbtypes" : [ null, null, null, 1, 1, 1 ]
 },
