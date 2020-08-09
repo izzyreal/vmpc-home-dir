@@ -277,7 +277,7 @@
  "time4", [ "time3", "time5", "edit", "note1,note0" ],
  "time5", [ "time4", "mode", "edit", "note1,note0" ],
  "note0", [ "_", "note1,copies", "time0", "_" ],
- "note1,note0", [ "note0", "copies", "time3", "_" ],
+ "note1,note0", [ "note0", "copies", "time0", "_" ],
  "from-sq", [ "edit", "from-tr", "_", "to-sq,mode" ],
  "from-tr", [ "from-sq", "_", "_", "to-tr,mode" ],
  "to-sq", [ "time5", "to-tr", "from-sq", "mode" ],
@@ -573,8 +573,8 @@
  "infosize" : [ 96 ],
  "infox" : [ 52 ],
  "infoy" : [ 9 ],
- "fblabels" : [ "PUNCH", "TRANS", "2ndSEQ", null, null, "TurnON" ],
- "fbtypes" : [ 0, 0, 2, null, null, 1 ]
+ "fblabels" : [[ "PUNCH", "TRANS", "2ndSEQ", null, null, "TurnON" ], [ "PUNCH", "TRANS", "2ndSEQ", null, null, null ], [ "PUNCH", "TRANS", "2ndSEQ", null, null, "OFF" ]],
+ "fbtypes" : [[ 0, 0, 2, null, null, 1 ], [ 0, 0, 2, null, null, null ], [ 0, 0, 2, null, null, 1 ]]
 },
 "assign":
 {
