@@ -622,31 +622,6 @@
  "fblabels" : [ null, null, null, "SUDDEN", "CLEAR", "CLOSE" ],
  "fbtypes" : [ null, null, null, 1, 1, 0 ]
 },
-"audio":
-{
- "labels" : [ "Server:", " In:", "Dev:", "Out:", "Dev:" ],
- "x" : [ 1, 15, 15, 15, 15 ],
- "y" : [ 1, 11, 21, 31, 41 ],
- "parameters" : [ "server", "in", "dev0", "out", "dev1" ],
- "tfsize" : [ 192, 132, 204, 132, 204 ],
- "fblabels" : [ "AUDIO", "MIDI", "DISK", null, null, "START" ],
- "fbtypes" : [ 2, 0, 0, null, null, 1 ]
-},
-"audio_no_start":
-{
- "fblabels" : [ "AUDIO", "MIDI", "DISK", null, null, null],
- "fbtypes" : [ 2, 0, 0, null, null, null ]
-},
-"midi":
-{
- "labels" : [ "In :", "Dev:", "Out:", "Dev:" ],
- "x" : [ 16, 16, 16, 16 ],
- "y" : [ 5, 14, 29, 38 ],
- "parameters" : [ "in", "dev0", "out", "dev1" ],
- "tfsize" : [ 54, 192, 60, 192 ],
- "fblabels" : [ "AUDIO", "MIDI", "DISK", null, null, null ],
- "fbtypes" : [ 0, 2, 0, null, null, null ]
-},
 "vmpc-disk":
 {
  "labels" : [ "SCSI-", "Access type:", "Root:" ],
