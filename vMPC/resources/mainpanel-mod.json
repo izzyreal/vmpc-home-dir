@@ -151,7 +151,7 @@
 },
 "mixer-setup":
 {
- "labels" : [ "Stereo mix source:", "INDIV/FX source:", "Copy pgm to drum:", "Record mix changes:", "", "Drum:" ],
+ "labels" : [ "Stereo mix source:", "INDIV/FX source:", "Copy pgm mix to drum:", "Record mix changes:", "", "Drum:" ],
  "x" : [ 9, 21, 15, 28, 193, 187 ],
  "y" : [ 13, 22, 31, 40, 14, 39 ],
  "parameters" : [
@@ -639,7 +639,7 @@
  "y" : [ 5 ],
  "parameters" : [ "initial-pad-mapping" ],
  "tfsize" : [ 48 ],
- "fblabels" : [ "SETNGS", "DISK", null, null, null, null ],
- "fbtypes" : [ 2, 0, null, null, null, null ]
+ "fblabels" : [ "SETNGS", null, null, null, null, null ],
+ "fbtypes" : [ 2, null, null, null, null, null ]
 }
 }
