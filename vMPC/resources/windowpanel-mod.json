@@ -19,26 +19,6 @@
  "fblabels" : [ null, null, null, "CLOSE", null, null ],
  "fbtypes" : [ null, null, null, 0, null, null ]
 },
-"buffer-size":
-{
- "labels" : [ "Frames:" ],
- "x" : [ 70 ],
- "y" : [ 28 ],
- "tfsize" : [ 24 ],
- "parameters" : [ "frames" ],
- "fblabels" : [ null, null, null, "CLOSE", null, null ],
- "fbtypes" : [ null, null, null, 0, null, null ]
-},
-"audio-midi-disabled":
-{
- "labels" : [ "dummy" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
- "fblabels" : [ null, null, null, "CLOSE", null, null ],
- "fbtypes" : [ null, null, null, 0, null, null ]
-},
 "mpc2000xl-all-file":
 {
  "labels" : [ "" ],
@@ -58,7 +38,7 @@
  "parameters" : [ "prog0", "note0", "prog1", "note1" ],
  "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
-},  
+},
 "assignment-view":
 {
  "labels" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
