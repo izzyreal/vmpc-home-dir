@@ -311,7 +311,12 @@
  "x" : [ 25, 31, 31, 31, 169 ],
  "y" : [ 11, 23, 33, 43, 40 ],
  "tfsize" : [ 162, 18, 18, 18, 18 ],
- "parameters" : [ "note", "veloattack", "velostart", "velolevel", "velo" ],
+ "parameters" : [
+ "note", [ "_", "_", "_", "veloattack" ],
+ "veloattack", [ "_", "_", "note", "velostart" ],
+ "velostart", [ "_", "_", "veloattack", "velolevel" ],
+ "velolevel", [ "_", "_", "velostart", "_" ],
+ "velo" ],
  "fblabels" : [ null, null, null, "CLOSE", "PLAY", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
