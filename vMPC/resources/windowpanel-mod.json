@@ -269,7 +269,15 @@
  "x" : [ 31, 43, 97, 160, 43, 97, 163, 199  ],
  "y" : [ 11, 32, 32, 32, 41, 41, 41, 41  ],
  "tfsize" : [ 144, 18, 18, 18, 18, 18, 12, 18 ],
- "parameters" : [ "note", "stereovolume", "individualvolume", "fxsendlevel", "panning", "output", "fxpath", "followstereo" ],
+ "parameters" : [
+ "note", [ "_", "individualvolume", "_", "stereovolume" ],
+ "stereovolume", [ "note", "individualvolume", "note", "panning" ],
+ "individualvolume", [ "stereovolume", "fxsendlevel", "note", "output" ],
+ "fxsendlevel", [ "individualvolume", "followstereo", "note", "fxpath" ],
+ "panning", [ "_", "output", "stereovolume", "_" ],
+ "output", [ "panning", "fxpath", "individualvolume", "_" ],
+ "fxpath", [ "output", "followstereo", "fxsendlevel", "_" ],
+ "followstereo", [ "fxpath", "_", "fxsendlevel", "_" ]],
  "fblabels" : [ null, null, null, "CLOSE", null, null ],
  "fbtypes" : [ null, null, null, 0, null, null ]
 },
