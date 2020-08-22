@@ -263,16 +263,6 @@
  "fblabels" : [ null, "RETRY", null, "PLAY", "KEEP", null ],
  "fbtypes" : [ null, 1, null, 1, 1, null ]
 },
-"format-disk":
-{
- "labels" : [ "" ],
- "x" : [ 53 ],
- "y" : [ 20 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
- "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
- "fbtypes" : [ null, null, null, 0, 1, null ]
-},
 "channel-settings":
 {
  "labels" : [ "Note:", "Vol:", "Vol: ", "", "Pan:", "Out:", "", "" ],

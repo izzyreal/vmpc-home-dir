@@ -246,26 +246,6 @@
  "fblabels" : [[ "ASSIGN", "PARAMS", "DRUM", "PURGE", null, null ], [ "ASSIGN", "PARAMS", "DRUM", "PURGE", null, "DO IT" ]],
  "fbtypes" : [[ 0, 0, 0, 2, null, null ], [ 0, 0, 0, 2, null, 1 ]]
 },
-"format":
-{
- "labels" : [ "Device:" ],
- "x" : [ 6 ],
- "y" : [ 1 ],
- "parameters" : ["device" ],
- "tfsize" : [ 36 ],
- "fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", null, "DO IT" ],
- "fbtypes" : [ 0, 0, 2, 0, null, 1 ]
-},
-"setup":
-{
- "labels" : [ "Primary device:", "Auto loading file type:" ],
- "x" : [ 58, 10 ],
- "y" : [ 10, 25 ],
- "parameters" : [ "primarydevice", "filetype" ],
- "tfsize" : [ 36, 18 ],
- "fblabels" : [ "LOAD", "SAVE", "FORMAT", "SETUP", null, null ],
- "fbtypes" : [ 0, 0, 0, 2, null , null ]
-},
 "events":
 {
  "labels" : [ "Edit:", "", ".", ".", "-", ".", ".", "", "-", "From sq:", "Tr:", "To sq:", "Tr:", "Mode:", "Start:", ".", ".", "Copies:" ],
