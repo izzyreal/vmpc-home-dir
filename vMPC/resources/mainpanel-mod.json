@@ -69,11 +69,17 @@
 },
 "step-editor":
 {
- "labels" : [ "View:", "", "-", "", "Now:", ".", "." ],
- "parameters" : [ "view", "fromnote", "tonote,fromnote", "controlnumber", "now0", "now1", "now2" ],
- "x" : [ 1, 67, 109, 66, 168, 210, 228 ],
- "y" : [ 1, 1, 1, 1, 1, 1, 1 ],
- "tfsize" : [ 36, 47, 47, 96, 18, 12, 12 ],
+ "labels" : [ "View:", "", "-", "Now:", ".", "." ],
+ "parameters" : [
+ "view", [ "_", "fromnote", "_", "_" ],
+ "fromnote", [ "view", "tonote,now0", "_", "_" ],
+ "tonote,fromnote", [ "fromnote", "now0", "_", "_" ],
+ "now0", [ "view", "now1", "_", "_" ],
+ "now1", [ "now0", "now2", "_", "_" ],
+ "now2", [ "now1", "_", "_", "_" ]],
+ "x" : [ 1, 67, 109, 168, 210, 228 ],
+ "y" : [ 1, 1, 1, 1, 1, 1 ],
+ "tfsize" : [ 36, 47, 47, 18, 12, 12 ],
  "fblabels" : [[ "TC", "COPY", "DELETE", "INSERT", "PASTE", "PLAY" ],
                [ "TC", "COPY", "DELETE", "EDIT", null, "CANCEL" ]],
  "fbtypes" : [[ 1, 1, 1, 1, 1, 1 ],
