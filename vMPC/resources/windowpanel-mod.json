@@ -362,143 +362,18 @@
  "x" : [ 21, 99, 27, 75, 27 ],
  "y" : [ 11, 11, 21, 31, 41 ],
  "tfsize" : [ 36, 120, 36, 24, 96 ],
- "parameters" : [ "source", "snd", "original-key", "tune", "program-name" ],
+ "parameters" : [
+ "source", [ "_", "snd", "_", "original-key" ],
+ "snd", [ "source", "_", "_", "original-key" ],
+ "original-key", [ "_", "_", "source", "tune" ],
+ "tune", [ "_", "_", "original-key", "program-name" ],
+ "program-name", [ "_", "_", "tune", "_" ]],
  "infowidgets" : [ "soundname" ], 
  "infox" : [ 100 ],
  "infoy" : [ 11 ],
  "infosize" : [ 96 ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
-},
-"copy-effect-settings":
-{
- "labels" : [ "Pgm:", "Set:", "Pgm:", "Set:" ],
- "x" : [ 61, 61, 61, 61 ],
- "y" : [ 11, 20, 32, 41 ],
- "tfsize" : [ 114, 54, 114, 54 ],
- "parameters" : [ "pgm0", "set0", "pgm1", "set1" ],
- "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
- "fbtypes" : [ null, null, null, 0, 1, null ]
-},
-"distortion-ring-mod":
-{
- "labels" : [ "Gain:", "Level:", "Freq:", "Depth:" ],
- "x" : [ 49, 43, 145, 139 ],
- "y" : [ 27, 38, 27, 38 ],
- "tfsize" : [ 12, 12, 24, 12 ],
- "parameters" : [ "gain", "level", "freq", "depth" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"4bandfilter":
-{
- "labels" : [ "HIGH:", "", "MID1:", "", "", "", "", "MID2", "", "", "", "", "LOW:", "" ],
- "x" : [ 19, 85, 19, 85, 127, 157, 211, 19, 85, 127, 157, 211, 19, 85 ],
- "y" : [11, 11, 21, 21, 21, 21, 21, 31, 31, 31, 31, 31, 41, 41 ],
- "tfsize" : [ 18, 18, 18, 18, 12, 18, 12, 18, 18, 12, 18, 12, 18, 18 ],
- "parameters" : [ "high0", "high1", "mid10", "mid11", "mid12", "mid13", "mid14", "mid20", "mid21", "mid22", "mid23", "mid24", "low0", "low1" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"effect-mixer":
-{
- "labels" : [ "Direct sig:", "", "Output:", "Dist/EQ:", "", "Mod/Echo:", "", "", "Reverb:", "" ],
- "x" : [ 19, 25, 19, 121, 187, 115, 187, 211, 127, 187 ],
- "y" : [ 11, 31, 41, 21, 21, 31, 31, 31, 41, 41 ],
- "tfsize" : [ 18, 72, 18, 12, 18, 12, 18, 12, 12, 18 ],
- "parameters" : [ "directsig", "patch", "output", "disteqlev", "disteqpan", "modecholev", "modechopan", "modechowid", "reverblev", "reverbpan" ],
- "fblabels" : [ null, null, null, "CLOSE", null, null ],
- "fbtypes" : [ null, null, null, 0, null, null ]
-},
-"modulation":
-{
- "labels" : [ "Type:", "Speed:", "Depth:", "Feedback:" ],
- "x" : [ 19, 151, 151, 133 ],
- "y" : [ 11, 21, 31, 41 ],
- "tfsize" : [ 96, 30, 12, 18 ],
- "parameters" : [ "type", "speed", "depth", "feedback" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"modulation-rotary":
-{
- "labels" : [ "Type:", "Speed1:", "Depth:", "MIDI control #:", "Acceleration:", "Speed2:" ],
- "x" : [ 19, 25, 31, 109, 121, 157 ],
- "y" : [ 11, 25, 37, 21, 31, 41 ],
- "tfsize" : [ 114, 30, 12, 18, 24, 30 ],
- "parameters" : [ "type", "speed1", "depth", "midicontrol", "acceleration", "speed2" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"modulation-fmod-auto-pan":
-{
- "labels" : [ "Type:", "Speed:", "Depth:", "Feedback:", "Speed:", "Depth:", "Mode:" ],
- "x" : [ 19, 73, 73, 55, 159, 159, 165 ],
- "y" : [ 11, 21, 31, 41, 21, 31, 41 ],
- "tfsize" : [ 114, 30, 12, 12, 30, 12, 24 ],
- "parameters" : [ "type", "speed0", "depth0", "feedback", "speed1", "depth1", "mode" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"modulation-pitch-shift":
-{
- "labels" : [ "Type:", "Tune:", "unknown" ],
- "x" : [ 19, 115, 187 ],
- "y" : [ 11, 21, 21 ],
- "tfsize" : [ 114, 36, 36 ],
- "parameters" : [ "type", "tune", "unknown" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"modulation-pitch-feedback":
-{
- "labels" : [ "Type:", "Tune:", "unknown", "Delay:", "", "Feedback:", "" ],
- "x" : [ 19, 115, 187, 109, 187, 91, 187 ],
- "y" : [ 11, 21, 21, 31, 31, 41, 41 ],
- "tfsize" : [ 114, 36, 36, 30, 30, 12, 12 ],
- "parameters" : [ "type", "tune", "unknown", "delayleft", "delayright", "feedbackleft", "feedbackright" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"delay-echo":
-{
- "labels" : [ "Type:", "Feedback:", "Feedback delay:", "HF damping:", "L/R delay offset:" ],
- "x" : [ 19, 139, 103, 127, 91 ],
- "y" : [ 11, 11, 21, 31, 41 ],
- "tfsize" : [ 114, 18, 30, 30, 24 ],
- "parameters" : [ "type", "feedback", "feedbackdelay", "hfdamping", "lrdelayoffset" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"delay-echo-stereo":
-{
- "labels" : [ "Type:", "Feedback:", "", "Feedback delay:", "", "HF damping:", "" ],
- "x" : [ 19, 97, 199, 61, 193, 85, 193 ],
- "y" : [ 11, 21, 21, 31, 31, 41, 41 ],
- "tfsize" : [ 114, 18, 30, 30, 24, 30, 24 ],
- "parameters" : [ "type", "feedbackleft", "feedbackright", "feedbackdelayleft", "feedbackdelayright", "hfdampingleft", "hfdampingright" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"reverb":
-{
- "labels" : [ "Type:", "Predelay:", "Time:", "Diffuse:", "Near:", "LF damping:", "HF damping:" ],
- "x" : [ 19, 43, 67, 49, 169, 133, 133 ],
- "y" : [ 11, 21, 31, 41, 21, 31, 41 ],
- "tfsize" : [ 114, 24, 12, 12, 12, 30, 30 ],
- "parameters" : [ "type", "predelay", "time", "diffuse", "near", "lfdamping", "hfdamping" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
-},
-"reverb-gated":
-{
- "labels" : [ "Type:", "Predelay:", "Time:", "Diffuse:" ],
- "x" : [ 19, 43, 67, 49 ],
- "y" : [ 11, 21, 31, 41 ],
- "tfsize" : [ 114, 24, 12, 12 ],
- "parameters" : [ "type", "predelay", "time", "diffuse" ],
- "fblabels" : [ null, "SOLO", "BYPASS", "CLOSE", "MIXER", null ],
- "fbtypes" : [ null, 1, 1, 0, 1, null ]
 },
 "sound-memory":
 {
