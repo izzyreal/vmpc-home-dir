@@ -71,7 +71,7 @@
 {
  "labels" : [ "View:", "", "-", "", "Now:", ".", "." ],
  "parameters" : [ "view", "fromnote", "tonote,fromnote", "controlnumber", "now0", "now1", "now2" ],
- "x" : [ 1, 67, 110, 66, 168, 210, 228 ],
+ "x" : [ 1, 67, 109, 66, 168, 210, 228 ],
  "y" : [ 1, 1, 1, 1, 1, 1, 1 ],
  "tfsize" : [ 36, 47, 47, 96, 18, 12, 12 ],
  "fblabels" : [[ "TC", "COPY", "DELETE", "INSERT", "PASTE", "PLAY" ],
