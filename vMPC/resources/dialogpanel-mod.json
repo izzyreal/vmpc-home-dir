@@ -1,41 +1,21 @@
 {
 "file-already-exists":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : ["dummy" ],
  "fblabels" : [ null, null, "REPLAC", "CANCEL", "RENAME", null],
  "fbtypes" : [ null, null, 1, 0, 1, null ]
 },
 "vmpc-record-jam":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "OK", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },  
 "delete-all-sequences":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
 "delete-all-tracks":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -51,21 +31,11 @@
 },
 "delete-folder":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
 "delete-file":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, "ALL", null, "CANCEL", "DO IT", null],
  "fbtypes" : [ null, 1, null, 0, 1, null ]
 },
@@ -101,11 +71,6 @@
 },
 "delete-all-programs":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -121,11 +86,6 @@
 },
 "delete-all-sound":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },

@@ -54,11 +54,6 @@
 },
 "mixer":
 {
- "labels" : [ "" ],
- "parameters": [ "dummy" ],
- "tfsize": [ 0 ],
- "x" : [ 1 ],
- "y" : [	1 ],
  "fblabels" : [[ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ],
 			   [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ],
 			   [ "STEREO", "INDIV", "FXsend", "SETUP", "FXedit", "ALL CH" ],
@@ -119,11 +114,6 @@
 },
 "select-drum":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
  "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
                [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
 			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", null, null ],
@@ -135,11 +125,6 @@
 },
 "select-mixer-drum":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
  "fblabels" : [[ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
                [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
 			   [ "DRUM1", "DRUM2", "DRUM3", "DRUM4", "SETUP", "FXedit" ],
@@ -234,11 +219,6 @@
 },
 "purge":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
  "infowidgets" : [ "value" ],
  "infox" : [ 23 ],
  "infoy" : [ 35 ],
@@ -351,21 +331,11 @@
 },
 "init":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
  "fblabels" : [ "OTHERS", "INIT", "VER.", null, null, "DO IT" ],
  "fbtypes" : [ 0, 2, 0, null, null, 1 ]
 },
 "ver":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "parameters" : [ "dummy" ],
- "tfsize" : [ 0 ],
  "fblabels" : [ "OTHERS", "INIT", "VER.", null, null, null ],
  "fbtypes" : [ 0, 0, 2, null, null, null ]
 },
@@ -424,11 +394,11 @@
  "x" : [ 2, 157, 8, 98, 186, 1 ],
  "y" : [ 2, 1, 12, 12, 12, 1 ],
  "parameters" : [
- "snd", [ "_", "playx", "_", "st" ],
- "playx", [ "snd", "st", "_", "view" ],
- "st", [ "playx", "end", "snd", "_" ],
- "end", [ "st", "view", "snd", "_" ],
- "view", [ "end", "_", "playx", "_" ],
+ "snd,dummy", [ "_", "playx", "_", "st" ],
+ "playx,dummy", [ "snd", "st", "_", "view" ],
+ "st,dummy", [ "playx", "end", "snd", "_" ],
+ "end,dummy", [ "st", "view", "snd", "_" ],
+ "view,dummy", [ "end", "_", "playx", "_" ],
  "dummy,snd" ],
  "tfsize" : [ 120, 48, 48, 48, 30, 0 ],
  "fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ]],

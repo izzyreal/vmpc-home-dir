@@ -11,21 +11,11 @@
 },
 "vmpc-recording-finished":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CLOSE", null, null ],
  "fbtypes" : [ null, null, null, 0, null, null ]
 },
 "mpc2000xl-all-file":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, "<SEQ>", "CANCEL", "LOAD", null ],
  "fbtypes" : [ null, null, 1, 0, 1, null ]
 },
@@ -139,11 +129,6 @@
 },
 "load-aps-file":
 {
- "labels"  : [ "" ],
- "x"  : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters"  : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "LOAD", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -201,11 +186,6 @@
 },
 "paste-event":
 {
- "labels" : [ "" ],
- "x" : [ 50 ],
- "y" : [ 50 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -377,11 +357,6 @@
 },
 "sound-memory":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "infowidgets" : [ "free-memory-time", "megabytes-installed" ], 
  "infox" : [ 40, 64 ],
  "infoy" : [ 11, 39 ],
@@ -536,16 +511,16 @@
 },
 "loop-bars-window":
 {
-    "labels" : [ "First bar:", "Last bar:", "Number of bars:" ],
-    "x" : [ 90, 96, 60 ],
-    "y" : [ 11, 33, 42 ],
- 	"parameters" : [
-	"firstbar", [ "_", "_", "_", "lastbar" ],
-	"lastbar", [ "_", "_", "firstbar", "numberofbars" ],
-	"numberofbars", [ "_", "_", "lastbar", "_" ]],
-    "tfsize" : [ 18, 18, 18 ],
-	"fblabels" : [ null, null, null, "CLOSE", null, null ],
-	"fbtypes" : [ null, null, null, 0, null, null ]
+ "labels" : [ "First bar:", "Last bar:", "Number of bars:" ],
+ "x" : [ 90, 96, 60 ],
+ "y" : [ 11, 33, 42 ],
+ "parameters" : [
+"firstbar", [ "_", "_", "_", "lastbar" ],
+"lastbar", [ "_", "_", "firstbar", "numberofbars" ],
+"numberofbars", [ "_", "_", "lastbar", "_" ]],
+ "tfsize" : [ 18, 18, 18 ],
+"fblabels" : [ null, null, null, "CLOSE", null, null ],
+"fbtypes" : [ null, null, null, 0, null, null ]
 },
 "convert-song-to-seq":
 {
@@ -569,11 +544,6 @@
 },
 "transpose-permanent":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -711,11 +681,6 @@
 }, 
 "erase-all-off-tracks":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -751,11 +716,6 @@
 },
 "midi-input-monitor":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "infowidgets" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
  "infox" : [ 66, 76, 86, 96, 106, 116, 126, 136, 146, 156, 166, 176, 186, 196, 206, 216, 66, 76, 86, 96, 106, 116, 126, 136, 146, 156, 166, 176, 186, 196, 206, 216 ],
  "infoy" : [ 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 ],
@@ -779,11 +739,6 @@
 },
 "midi-output-monitor":
 {
- "labels" : [ "" ],
- "x" : [ 1 ],
- "y" : [ 1 ],
- "tfsize" : [ 0 ],
- "parameters" : [ "dummy" ],
  "infowidgets" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
  "infox" : [ 65, 75, 85, 95, 105, 115, 125, 135, 145, 155, 165, 175, 185, 195, 205, 215, 65, 75, 85, 95, 105, 115, 125, 135, 145, 155, 165, 175, 185, 195, 205, 215 ],
  "infoy" : [ 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33 ],
