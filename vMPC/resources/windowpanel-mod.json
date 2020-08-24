@@ -573,7 +573,7 @@
  "time5", [ "time4", "_", "track", "erase" ],
  "erase", [ "_", "type,_", "time0", "note0" ],
  "type,erase", [ "erase", "_", "time0", "_" ],
- "note0", [ "_", "_", "erase", "_" ],
+ "note0", [ "_", "note1,_", "erase", "_" ],
  "note1,note0", [ "note0", "_", "erase", "_" ]],
  "infowidgets" : [ "track-name" ],
  "infox" : [ 74 ],
