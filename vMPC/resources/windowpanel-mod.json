@@ -642,7 +642,7 @@
  "time4", [ "time3", "time5", "amount", "note1,note0" ],
  "time5", [ "time4", "_", "amount", "note1,note0" ],
  "note0", [ "_", "note1", "time0", "_" ],
- "note1", [ "note0", "_", "time3", "_" ]],
+ "note1,note0", [ "note0", "_", "time3", "_" ]],
  "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -686,7 +686,12 @@
  "x" : [ 40, 153, 64, 153, 28 ],
  "y" : [ 14, 14,  24, 24, 42 ],
  "tfsize" : [ 48, 18, 42, 18, 18 ],
- "parameters" : [ "count-in", "in-play", "rate", "in-rec", "wait-for-key" ],
+ "parameters" : [
+ "count-in", [ "_", "in-play", "_", "rate" ],
+ "in-play", [ "count-in", "_", "_", "in-rec" ],
+ "rate", [ "_", "in-rec", "count-in", "wait-for-key" ],
+ "in-rec", [ "rate", "_", "in-play", "_" ],
+ "wait-for-key", [ "_", "_", "rate", "_" ]],
  "fblabels" : [ null, null, null, "CLOSE", "SOUND", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 }, 
