@@ -8,6 +8,11 @@
 {
  "fblabels" : [ null, null, null, "CANCEL", "OK", null],
  "fbtypes" : [ null, null, null, 0, 1, null ]
+},
+"vmpc-file-in-use":
+{
+ "fblabels" : [ null, null, null, "OK", null, null],
+ "fbtypes" : [ null, null, null, 1, null, null ]
 },  
 "delete-all-sequences":
 {
