@@ -27,10 +27,10 @@ Shift = Shift
 
 Q = Previous Step/Event
 W = Next Step/Event
-E = GO TO
+E = Locate/Go To
 R = Previous Bar/Start
 T = Next Bar/End
 
-Y = Tap
+Y = Tap Tempo/Note Repeat
 
 ] = Track Mute
