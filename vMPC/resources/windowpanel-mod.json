@@ -91,22 +91,22 @@
 },
 "save-all-file":
 {
- "labels" : [ "File:" ],
- "x" : [ 34 ],
- "y" : [ 13 ],
+ "labels" : [ "File\u00CEname:" ],
+ "x" : [ 36 ],
+ "y" : [ 24 ],
  "tfsize" : [ 6 ],
  "parameters" : [ "file" ],
  "infowidgets" : ["file1" ],
  "infosize" : [ 114 ],  
- "infox" : [ 70 ],
- "infoy" : [ 12 ],  	
+ "infox" : [ 99 ],
+ "infoy" : [ 23 ],  	
  "fblabels" : [ null, null, null, "CANCEL", "SAVE", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },  
 "save-aps-file":
 {
  "labels" : [ "File:", "Save:", "Replace same sounds:" ],
- "x" : [ 34, 78, 54 ],
+ "x" : [ 54, 78, 54 ],
  "y" : [ 13, 27, 39 ],
  "tfsize" : [ 120, 72, 18 ],
  "parameters" : [ "file", "save", "replace-same-sounds" ],

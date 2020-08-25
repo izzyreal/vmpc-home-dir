@@ -1,5 +1,5 @@
 {
-"file-already-exists":
+"file-exists":
 {
  "fblabels" : [ null, null, "REPLAC", "CANCEL", "RENAME", null],
  "fbtypes" : [ null, null, 1, 0, 1, null ]
