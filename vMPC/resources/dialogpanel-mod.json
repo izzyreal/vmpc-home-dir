@@ -61,8 +61,8 @@
  "y" : [ 16, 40 ],
  "tfsize" : [ 114, 114 ],
  "parameters" : [ "pgm0", "pgm1" ],
- "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
- "fbtypes" : [ null, null, null, 0, 1, null ]
+ "fblabels" : [[ null, null, null, "CANCEL", "DO IT", null], [ null, null, null, "CANCEL", null, null]],
+ "fbtypes" : [[ null, null, null, 0, 1, null ], [ null, null, null, 0, null, null ]]
 },
 "copy-sound":
 {
@@ -147,12 +147,27 @@
 "delete-song":
 {
  "labels" : [ "Song:" ],
- "x" : [ 61 ],
- "y" : [ 16 ],
+ "x" : [ 59 ],
+ "y" : [ 17 ],
  "tfsize" : [ 114 ],
  "parameters" : [ "song" ],
  "fblabels" : [ null, null, "ALL SG", "CANCEL", "DO IT", null],
  "fbtypes" : [ null, null, 1, 0, 1, null ]
+},
+"delete-all-song":
+{
+ "fblabels" : [ null, null, null, "CANCEL", "DO IT", null],
+ "fbtypes" : [ null, null, null, 0, 1, null ]
+},
+"copy-song":
+{
+ "labels" : [ "Song:" , "Song:" ],
+ "x" : [ 70, 70  ],
+ "y" : [ 16, 40 ],
+ "tfsize" : [ 114, 114 ],
+ "parameters" : [ "song0", "song1" ],
+ "fblabels" : [ null, null, null, "CANCEL", "DO IT", null ],
+ "fbtypes" : [ null, null, null, 0, 1, null ]
 },
 "metronome-sound":
 {
