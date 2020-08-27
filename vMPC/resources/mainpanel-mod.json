@@ -25,32 +25,13 @@
  "velo", [ "devicenumber", "_", "pgm", "_" ],
  "nextsq,sq", [ "_", "_", "bus", "_" ] 
  ],
- "tfsize" : [ 114, 18, 12, 12, 27, 30, 42, 30, 18, 18, 18, 114, 18, 18, 6, 30, 18, 18, 12 ],
+ "tfsize" : [ 114, 18, 12, 12, 27, 30, 41, 30, 18, 18, 18, 114, 18, 18, 6, 30, 18, 18, 12 ],
  "infowidgets" : [ "devicename", "punch-time-0", "punch-time-1" ],
  "infosize" : [ 96, 66, 66 ],
  "infox" : [ 80, 32, 138 ],
  "infoy" : [ 39, 51, 51 ],
  "fblabels" : [[ "STEP", "EDIT", "TrMUTE", "SOLO", "Tr -", "Tr +" ], [ null, null, "TrMUTE", "SOLO", "Tr -", "Tr +" ]],
  "fbtypes" : [[ 0, 0, 1, 1, 1, 1 ], [ null, null, 1, 1, 1, 1 ]]
-},
-"next-seq":
-{
- "labels" : [ "Sq:", "Now:", ".", ".", " \u00C0:", "", "Timing:", "Next Sq:" ],
- "x" : [ 2, 168, 210, 228, 2, 51, 96,  2 ],
- "y" : [ 2, 1, 1, 1, 12, 12, 12, 39  ],
- "parameters" : [
- "sq", [ "_", "_", "_", "tempo" ],
- "now0", [ "_", "_", "_", "_" ],
- "now1", [ "_", "_", "_", "_" ],
- "now2", [ "_", "_", "_", "_" ],
- "tempo", [ "_", "tempo-source", "sq", "nextsq" ],
- "tempo-source", [ "tempo", "timing", "sq", "nextsq" ],
- "timing", [ "tempo", "_", "sq", "nextsq" ],
- "nextsq", [ "tempo", "timing", "tempo", "_" ]
- ],
- "tfsize" : [ 114, 18, 12, 12, 30, 30, 30, 114 ],
- "fblabels" : [ null, null, null, "SUDDEN", "CLEAR", "PAD" ],
- "fbtypes" : [ null, null, null, 1, 1, 1 ]
 },
 "mixer":
 {
@@ -191,7 +172,7 @@
 "program-params":
 {
  "labels" : [ "Pgm:", "Note:", "Attack:", "Decay:", "Dcy md:", "Freq:", "Reson:", "Tune:", "" ],
- "x" : [ 3, 45, 3, 3, 3, 134, 134, 190, 190 ],
+ "x" : [ 3, 45, 3, 9, 3, 134, 134, 190, 190 ],
  "y" : [ 2, 2, 22, 31, 40, 26, 37, 12, 40 ],
  "parameters" : [
  "pgm", [ "_", "note", "_", "attack" ],
@@ -423,7 +404,7 @@
  "endlengthvalue,dummy", [ "endlength", "loop", "snd", "_" ],
  "loop,dummy", [ "endlengthvalue", "_", "playx", "_" ], 
  "dummy,snd" ],
- "tfsize" : [ 120, 48, 48, 30, 48, 30, 0 ],
+ "tfsize" : [ 120, 48, 48, 30, 48, 18, 0 ],
 "fblabels" : [[ "TRIM", "LOOP", "ZONE", "PARAMS", null, null ], [ "TRIM", "LOOP", "ZONE", "PARAMS", "EDIT", "PLAY X" ]],
   "fbtypes" : [[ 0, 2, 0, 0, null, null], [ 0, 2, 0, 0, 1, 1]]
 },
@@ -564,17 +545,36 @@
  "fblabels" : [ null, null, null, null, null, "SOLO" ],
  "fbtypes" : [ null, null, null, null, null, 1 ]
 },
+"next-seq":
+{
+ "labels" : [ "Sq:", "Now:", ".", ".", " \u00C0:", "", "Timing:", "Next Sq:" ],
+ "x" : [ 2, 168, 210, 228, 2, 48, 96,  2 ],
+ "y" : [ 2, 1, 1, 1, 12, 12, 12, 39  ],
+ "parameters" : [
+ "sq", [ "_", "_", "_", "tempo" ],
+ "now0", [ "_", "_", "_", "_" ],
+ "now1", [ "_", "_", "_", "_" ],
+ "now2", [ "_", "_", "_", "_" ],
+ "tempo", [ "_", "tempo-source", "sq", "nextsq" ],
+ "tempo-source", [ "tempo", "timing", "sq", "nextsq" ],
+ "timing", [ "tempo", "_", "sq", "nextsq" ],
+ "nextsq", [ "tempo", "timing", "tempo", "_" ]
+ ],
+ "tfsize" : [ 114, 18, 12, 12, 27, 30, 41, 114 ],
+ "fblabels" : [ null, null, null, "SUDDEN", "CLEAR", "PAD" ],
+ "fbtypes" : [ null, null, null, 1, 1, 1 ]
+},
 "next-seq-pad":
 {
- "labels" : [ "Sq:", "Now:", ".", "." ],
- "x" : [ 2, 168, 210, 228 ],
- "y" : [ 2, 1, 1, 1  ],
- "parameters" : [ "sq", "now0", "now1", "now2" ],
- "tfsize" : [ 114, 18, 12, 12 ],
- "infowidgets" : [ "13", "14", "15", "16", "9", "10", "11", "12", "5", "6","7", "8", "1", "2", "3", "4", "seqnumbers", "bank", "nextsq" ],
- "infosize" : [ 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 30, 6, 114 ],
- "infox" : [ 39, 91, 143, 195, 39, 91, 143, 195, 39, 91, 143, 195, 39, 91, 143, 195, 6, 18, 2 ],
- "infoy" : [ 12, 12, 12, 12, 21, 21, 21, 21, 30, 30, 30, 30, 39, 39, 39, 39, 20, 36, 50 ],
+ "labels" : [ "Sq:", "Now:", ".", ".", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+ "x" : [ 2, 168, 210, 228, 40, 92, 144, 196, 40, 92, 144, 196, 40, 92, 144, 196, 40, 92, 144, 196 ],
+ "y" : [ 2, 1, 1, 1, 13, 13, 13, 13, 22, 22, 22, 22, 31, 31, 31, 31, 40, 40, 40, 40  ],
+ "parameters" : [ "sq", "now0", "now1", "now2", "13", "14", "15", "16", "9", "10", "11", "12", "5", "6","7", "8", "1", "2", "3", "4" ],
+ "tfsize" : [ 114, 18, 12, 12, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48 ],
+ "infowidgets" : [ "seqnumbers", "bank", "nextsq" ],
+ "infosize" : [ 30, 6, 114 ],
+ "infox" : [ 6, 18, 2 ],
+ "infoy" : [ 20, 36, 50 ],
  "fblabels" : [ null, null, null, "SUDDEN", "CLEAR", "CLOSE" ],
  "fbtypes" : [ null, null, null, 1, 1, 0 ]
 },

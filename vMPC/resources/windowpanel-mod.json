@@ -25,7 +25,11 @@
  "x" : [ 57, 57, 57, 57 ],
  "y" : [ 11, 20, 32, 41 ],
  "tfsize" : [ 114, 138, 114, 138 ],
- "parameters" : [ "prog0", "note0", "prog1", "note1" ],
+ "parameters" : [
+ "prog0", [ "_", "_", "_", "note0" ],
+ "note0", [ "_", "_", "prog0", "prog1" ],
+ "prog1", [ "_", "_", "note0", "note1" ],
+ "note1", [ "_", "_", "prog1", "_" ]],
  "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
 },
@@ -463,7 +467,7 @@
  "labels" : [ "Edit:", "New name:", "Ratio:", "Preset:", "Adjust:", "End margin:", "Create new program:" ],
  "x" : [ 19, 19, 19, 19, 151, 77, 29 ],
  "y" : [ 11, 21, 31, 41, 41, 23, 34 ],
- "tfsize" : [ 174, 120, 42, 84, 24, 18, 18 ],
+ "tfsize" : [ 174, 120, 42, 84, 24, 12, 18 ],
  "parameters" : [
  "edit", [ "_", "_", "_", "new-name,end-margin" ],
  "new-name,edit", [ "_", "_", "edit", "ratio" ],
@@ -596,10 +600,10 @@
 		 22, 22, 22, 22,  22,  22,
 		 30, 30, 30, 30,  30,  30,
 		 38, 38, 38, 38,  38,  38 ],
- "tfsize" : [ 18, 28,
-			  18, 18, 12, 12, 30, 28,
-			  18, 18, 12, 12, 30, 28,
-			  18, 18, 12, 12, 30, 28 ],
+ "tfsize" : [ 18, 27,
+			  18, 18, 12, 12, 30, 27,
+			  18, 18, 12, 12, 30, 27,
+			  18, 18, 12, 12, 30, 27 ],
  "parameters" : [
  "tempo-change", [ "c0", "initial-tempo", "_", "c0" ],
  "initial-tempo", [ "tempo-change", "a0", "_", "f0" ],
@@ -627,7 +631,7 @@
 "timing-correct":
 {
  "labels" : [ "Note value:", "Swing%:", "Shift timing:", "amount:", "Time:", ".", ".", "-", ".", ".", "Notes:", "-" ],
- "x" : [ 26, 169, 26, 169, 32, 80, 98, 116, 140, 158, 26, 110 ],
+ "x" : [ 26, 171, 26, 171, 32, 80, 98, 116, 140, 158, 26, 110 ],
  "y" : [ 12, 12, 22, 22, 32, 32, 32, 32, 32, 32, 41, 41 ],
  "tfsize" : [ 42, 12, 42, 12, 18, 12, 12, 18, 12, 12, 48, 48 ],
  "parameters" : [
@@ -787,7 +791,7 @@
  "labels" : [ "Note :", "Param:", "Type :", "Original\u00CEkey\u00CEpad:" ],
  "x" : [ 37, 37, 37, 116 ],
  "y" : [ 16, 26, 36, 36 ],
- "tfsize" : [ 138, 60, 36, 12 ],
+ "tfsize" : [ 138, 48, 36, 12 ],
  "parameters" : [ "note", "param", "type", "originalkeypad" ],
  "fblabels" : [ null, null, null, "CANCEL", "TurnON", null ],
  "fbtypes" : [ null, null, null, 0, 1, null ]
