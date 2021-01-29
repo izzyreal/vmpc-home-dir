@@ -858,5 +858,10 @@
 {
 "fblabels" : [ null, null, null, "CLOSE", "DO IT", null ],
 "fbtypes" : [ null, null, null, 0, 1, null ]
+},
+"vmpc-discard-mapping-changes":
+{
+ "fblabels": [ null, null, null, "STAY", "DISCRD", "SAVE" ],
+ "fbtypes": [ null, null, null, 0, 1, 1 ]
 }
 }
