@@ -590,11 +590,11 @@
 },
 "vmpc-settings":
 {
- "labels" : [ "Initial pad mapping:" ],
- "x" : [ 5 ],
- "y" : [ 5 ],
- "parameters" : [ "initial-pad-mapping" ],
- "tfsize" : [ 48 ],
+ "labels" : [ "Initial pad mapping:", "16 LEVELS Erase mode:" ],
+ "x" : [ 5, 5 ],
+ "y" : [ 5, 16 ],
+ "parameters" : [ "initial-pad-mapping", "16-levels-erase-mode" ],
+ "tfsize" : [ 48, 90 ],
  "fblabels" : [ "SETNGS", "KEYBRD", null, null, null, null ],
  "fbtypes" : [ 2, 0, null, null, null, null ]
 },
