@@ -590,21 +590,38 @@
 },
 "vmpc-settings":
 {
- "labels" : [ "Initial pad mapping:", "16 LEVELS Erase mode:" ],
+ "labels" : [ "Initial pad mapping : ", "16 levels erase mode: " ],
  "x" : [ 5, 5 ],
  "y" : [ 5, 16 ],
  "parameters" : [ "initial-pad-mapping", "16-levels-erase-mode" ],
- "tfsize" : [ 48, 90 ],
- "fblabels" : [ "SETNGS", "KEYBRD", null, null, null, null ],
- "fbtypes" : [ 2, 0, null, null, null, null ]
+ "tfsize" : [ 60, 108 ],
+ "fblabels" : [ "SETNGS", "KEYBRD", "AUTSAV", null, null, null ],
+ "fbtypes" : [ 2, 0, 0, null, null, null ]
 },
 "vmpc-keyboard":
 {
  "fblabels" : [
- ["SETNGS", "KEYBRD", "DFAULT", "LEARN", "RESET", "SAVE" ],
- ["SETNGS", "KEYBRD", "CANCEL", "ACCEPT", "RESET", "SAVE" ]],
+ ["SETNGS", "KEYBRD", "AUTSAV", "LEARN", "RESET", "SAVE" ],
+ ["SETNGS", "KEYBRD", "CANCEL", "ACCEPT", null, null ]],
  "fbtypes" : [
- [ 0, 2, null, 1, 1, 1 ],
- [ 0, 2, 1, 1, 1, 1 ]]
+ [ 0, 2, 0, 1, 1, 1 ],
+ [ 0, 2, 1, 1, null, null ]]
+},
+"vmpc-auto-save":
+{
+ "labels" : [ " Auto-save on exit: ", "Auto-load on start: " ],
+ "parameters" : [
+ "auto-save-on-exit", [ "_", "_", "_", "auto-load-on-start" ],
+ "auto-load-on-start", [ "_", "_", "auto-save-on-exit", "_" ]
+ ],
+ "x" : [ 5, 5 ],
+ "y" : [ 5, 15 ],
+ "tfsize" : [ 48, 48 ],
+ "infowidgets" : [ "msg" ],
+ "infosize" : [ 168 ],
+ "infox" : [ 45 ],
+ "infoy" : [ 37 ],
+ "fblabels" : [ "SETNGS", "KEYBRD", "AUTSAV", null, null, null ],
+ "fbtypes" : [ 0, 0, 2, null, null, null ]
 }
 }
