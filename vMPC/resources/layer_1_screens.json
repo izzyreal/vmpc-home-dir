@@ -353,14 +353,18 @@
  "fblabels" : [ "SYNC", "DUMP", "MIDIsw", null, "REQUES", null ],
  "fbtypes" : [ 0, 2, 0, null, 1, null ]
 },
-"midisw":
+"midi-sw":
 {
  "labels" : [ "Ctrl:", "", "Ctrl:", "", "Ctrl:", "", "Ctrl:", "" ],
  "x" : [ 5, 5,  67, 67, 129, 129, 191, 191 ],
  "y" : [ 15, 35, 15, 35, 15, 35, 15, 35],
  "parameters" : [ "ctrl0", "function0", "ctrl1", "function1", "ctrl2", "function2", "ctrl3", "function3" ],
  "tfsize" : [ 18, 54, 18, 54, 18, 54, 18, 54 ],
- "fblabels" : [ "SYNC", "DUMP", "MIDIsw", null, null, null ],
+ "infowidgets" : [ "switch0", "switch1", "switch2", "switch3" ],
+ "infox" : [ 5, 67, 129, 191 ],
+ "infoy" : [ 1, 1, 1, 1 ],
+ "infosize" : [ 54, 54, 54, 54 ], 
+"fblabels" : [ "SYNC", "DUMP", "MIDIsw", null, null, null ],
  "fbtypes" : [ 0, 0, 2, null, null, null ]
 },
 "sample":
